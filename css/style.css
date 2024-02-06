@@ -273,14 +273,15 @@ main{
     padding: 5rem 0;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    -webkit-backdrop-filter: blur( 4px );
     backdrop-filter: blur( 4px );
     border-radius: 3rem;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: all 0.5s;
 }
 .section_two_left_icon{
     width: 7rem;
     margin-bottom: 3rem;
+    transition: all 0.5s;
 }
 .section_two_left_icon[alt="민원 포털"]{
     margin-bottom: 3.8rem;
@@ -294,6 +295,13 @@ main{
 }
 .section_two_left_one:hover .section_two_left_text>a, .section_two_left_two:hover .section_two_left_text>a, .section_two_left_thr:hover .section_two_left_text>a{
     opacity: 0.8;
+}
+.section_two_left:hover{
+    box-shadow: 0 8px 32px 9px rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+}
+.section_two_left_icon_one:hover, .section_two_left_icon_two:hover, .section_two_left_icon_thr:hover{
+    transform: rotate(5deg);
 }
 /* ===== section_two_left ===== */
 
@@ -659,14 +667,14 @@ input:checked+label{
     border: 1px solid #acc5ee;
     border-radius: 1rem;
     width: 88%;
-    padding: 18% 24%;
+    padding: 20% 24%;
 }
 .section_eig_box_list.w90{
     background: #e3ebf8 url(../img/picture/section_eig_box_bg.png) no-repeat right bottom/cover;
     border: 1px solid #acc5ee;
     border-radius: 1rem;
     width: 90%;
-    padding: 18% 24%;
+    padding: 20% 24%;
 }
 .section_eig_box_one_list li, .section_eig_box_list li{
     padding-left: 13%;
