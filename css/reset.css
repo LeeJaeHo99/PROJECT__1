@@ -1,0 +1,138 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap'); /* 노토산스 */
+@import url(./fonts.css); /* 프리텐다드 */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css); /* 폰트어썸 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom */
+html{
+    font-size: 62.5%; /* 10px */
+    /* 1.6rem = 16px, 1rem = 10px */
+    /* 최상위 폰트 사이즈만 바꾸면 한번에 바꿀 수 있음 */
+    box-sizing: border-box;
+    line-height: 1.75;
+    font-family: 'Pretendart', sans-serif;
+    /* font alias: 폰트 계단현상 완화 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:root{
+    --primary1: #0054a6;
+    --primary2: #001325;
+    --primary3: #003478;
+    --accent1: #a3192d;
+    --accent2: #ffcb05;
+    --text1: #222;
+    --text2: #313131;
+    --text3: #707070;
+    --text4: #003478;
+    --bg: #fff;
+    --link: #779ea2;
+}
+a{
+    text-decoration: none;
+    color: #222;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.h1, h1{
+    font-family: 'Pretendart', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.h2, h2{
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+.h3, h3{
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+.h4, h4{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.h5, h5{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.h6, h6{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.text{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.df{
+    display: flex;
+}
+.dn{
+    display: none;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+.b1s{
+    border: 1px solid;
+}
+.b1st{
+    border-top: 1px solid;
+}
+.b1sb{
+    border-bottom: 1px solid;
+}
+.b1sr{
+    border-right: 1px solid;
+}
+.b1sl{
+    border-left: 1px solid;
+}

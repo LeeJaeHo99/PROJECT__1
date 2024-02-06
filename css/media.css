@@ -1,0 +1,327 @@
+/* ====================================
+    ======= 1100 ======    
+==================================== */
+@media screen  and (max-width:1100px) {
+    /* ===== header ===== */
+    header{
+        padding-bottom: 1rem;
+    }
+    .nav>li>a {
+        padding: 15% 15%;
+    }
+    /* ===== header ===== */
+    /* ===== sec1 ===== */
+    .section_one{
+        height: 34rem;
+    }
+    .section_one img{
+        width: 85%;
+    }
+    .section_one img:before{
+        top: 36%;
+        right: 3%;
+    }
+    .section_one img:after{
+        top: 36%;
+        left: 3%;
+    }
+    /* ===== sec1 ===== */
+    /* ===== sec2 ===== */
+    .section_two{
+        height: 37.5rem;
+    }
+    .section_two_left_icon {
+        width: 6rem;
+    }
+    .section_two_left {
+        height: 9rem;
+    }
+    .section_two_right_top{
+        font-size: 3rem6;
+    }
+    .section_two_right_bottom_text {
+        width: 24%;
+    }
+    /* ===== sec2 ===== */
+    /* ===== sec3 ===== */
+    .section_thr_left::after {
+        top: 10px;
+        left: 16.4rem;
+        right: -18px;
+    }
+    .section_thr_right::after {
+        top: 18rem;
+        left: 17.8rem;
+    }
+    .section_thr_right_bottom {
+        margin-top: 33rem;
+    }
+    /* ===== sec3 ===== */
+    /* ===== sec8 ===== */
+    .section_eig_pannel {
+        width: 42%;
+        margin-left: 3rem;
+    }
+    .section_eig_box {
+        gap: 6rem;
+    }
+    .section_eig_box_list, .section_eig_box_list.w90 {
+        padding: 18% 16%;
+    }
+    /* ===== sec8 ===== */
+    /* ===== sec4 ===== */
+    .section_for > .inner.df {
+        column-gap: 0rem;
+    }
+    .section_for_box {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    /* ===== sec4 ===== */
+    /* ===== sec5 ===== */
+    .section_fiv {
+        padding-top: 6rem;
+        padding-left: 0rem;
+    }
+    .section_fiv_title {
+        margin-left: 4rem;
+    }
+    /* ===== sec5 ===== */
+    /* ===== sec6 ===== */
+    .section_six_box_one, .section_six_box_two, .section_six_box_thr {
+        width: 24%;
+        height: 34rem;
+    }
+    .section_six_box_thr_top_date_one, .section_six_box_thr_top_date_two, .section_six_box_thr_top_date_thr, .section_six_box_thr_bottom_date_one, .section_six_box_thr_bottom_date_two, .section_six_box_thr_bottom_date_thr{
+        display:none
+    }
+    .section_six_box_one_title:before, .section_six_box_two_title:before, .section_six_box_thr_top_title:before, .section_six_box_thr_bottom_title:before {
+        right: -1.1rem;
+    }
+    /* ===== sec6 ===== */
+    /* ===== footer ===== */
+    .footer_copyright {
+        margin-left: 4.6rem;
+    }
+    .footer_caution {
+        margin-left: 4.6rem;
+    }
+    }
+    /* ===== footer ===== */
+    /* ====================================
+    ======= 1100 ======    
+    ==================================== */
+
+/* ====================================
+    ======= 1000 ======    
+==================================== */
+/* ===== header ===== */
+@media screen and (max-width:1000px) {
+.header_logo {
+    margin-left: 4.5rem;
+    width: 35%;
+}
+.logo_text_top {
+    font-size: 3rem;
+}
+.logo_text_bottom {
+    font-size: 1rem;
+}
+.nav {
+    width: 50%;
+    justify-content: flex-end;
+    column-gap: 1rem;
+}
+.nav>li {
+    flex: 1 1 calc(100% / 6);
+}
+.nav>li>a {
+    padding: 18% 0;
+}
+.text {
+    font-size: 1.3rem;
+}
+.dep1 {
+    width: 190%;
+}
+.dep1_2 {
+    width: 275%;
+}
+ul.dep1.dep1_3.nav_thr{
+    width: 448%;
+}
+.dep1_4{
+    width: 300%;
+}
+.dep1_5{
+    width: 300%;
+}
+ul.dep1.dep1_6.nav_six{
+    width: 318%;
+}
+/* ===== header ===== */
+/* ===== sec2 ===== */
+.section_two {
+    height: 33.5rem;
+}
+.section_two>.inner.df {
+    justify-content: center;
+}
+.section_two_left {
+    height: 7rem;
+    width: 36%;
+}
+.section_two_left_icon {
+    width: 5rem;
+}
+.section_two_right {
+    width: 40%;
+}
+.section_two_right_top{
+font-size: 2.3rem;
+}
+.section_two_right_bottom.df {
+    margin-top: 3rem;
+}
+.section_two_right_bottom_text {
+    width: 34%;
+}
+/* ===== sec2 ===== */
+/* ===== sec3 ===== */
+.section_thr {
+    height: 44.5rem;
+}
+.section_thr .inner{
+    width: 90%;
+}
+.bold {
+    font-size: 3rem;
+}
+.section_thr_left_title, .section_thr_right_title {
+    font-size: 2.4rem;
+}
+.section_thr_left_top {
+    font-size: 1.4rem;
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+.section_thr_left::after {
+    top: 65px;
+    left: 16.4rem;
+    right: 2px;
+}
+.section_thr_left_bottom a {
+    font-size: 1.6rem;
+    margin-left: 4rem;
+}
+
+.section_thr_left_bottom p a::before {
+    left: 3rem;
+}
+.section_thr_right_bottom {
+    margin-top: 28rem;
+    margin-left: 0rem;
+}
+.section_thr_right_sns {
+    left: 0rem;
+}
+/* ===== sec3 ===== */
+/* ===== sec8 ===== */
+.section_eig {
+    width: 90%;
+    height: 37.5rem;
+}
+.section_eig_title, .section_eig_box_title{
+    font-size: 2.4rem;
+}
+.section_eig_pannel {
+    width: 37%;
+    margin-left: 8rem;
+}
+.panels{
+    min-height: 14rem;
+    box-shadow: 3px 20px 17px 0px rgba( 31, 38, 135, 0.37 );
+}
+label {
+    font-size: 1.3rem;
+    padding: 1.5% 1%;
+}
+.section_eig_box_list, .section_eig_box_list.w90 {
+    padding: 7% 10%;
+}
+.section_eig_box_one_list li, .section_eig_box_list li{
+font-size: 1.8rem;
+}
+.panel a.section_eig_panel_none{
+    display: none;
+}
+.section_eig_panel_none{
+    display: none;
+}
+.panel_line:before{
+    display: none;
+}
+/* ===== sec8 ===== */
+/* ===== sec5 ===== */
+.section_fiv {
+    height: 28rem;
+}
+.section_fiv_box_set {
+    /* width: 17%; */
+    height: 15rem;
+}
+.section_fiv_box_img {
+    width: 70%;
+}
+/* ===== sec5 ===== */
+/* ===== sec6 ===== */
+.section_six{
+    height: 32rem;
+}
+.section_six_box_one, .section_six_box_two{
+    display: none;
+}
+.section_six_box_thr{
+    width: 77%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 5rem;
+}
+.section_six_box_thr_top, .section_six_box_thr_bottom {
+    width: 113%;
+    height: 46%;
+}
+/* ===== sec6 ===== */
+/* ===== sec7 ===== */
+.section_sev {
+    height: 30rem;
+}
+.section_sev_box{
+    margin-left: 0;
+}
+.section_sev_box_one, .section_sev_box_two, .section_sev_box_thr {
+    padding: 1.5rem 1.3rem;
+}
+/* ===== sec7 ===== */
+/* ====================================
+    ======= footer ======    
+==================================== */
+.footer_link{
+    flex-wrap: wrap;
+}
+.footer_link_sev{
+    display: none;
+}
+.footer_address{
+    margin-left: -20rem;
+}
+.footer_copyright{
+    margin-left: 7.6rem;
+}
+/* ====================================
+    ======= footer ======    
+==================================== */
+/* ====================================
+    ======= 1000 ======    
+==================================== */
+}
