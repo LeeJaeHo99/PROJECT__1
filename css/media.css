@@ -34,13 +34,17 @@
         width: 6rem;
     }
     .section_two_left {
+        width: 35%;
         height: 9rem;
     }
+    .section_two_right {
+        width: 35%;
+    }
     .section_two_right_top{
-        font-size: 3rem6;
+        font-size: 2.4rem;
     }
     .section_two_right_bottom_text {
-        width: 24%;
+        width: 32%;
     }
     /* ===== sec2 ===== */
     /* ===== sec3 ===== */
@@ -65,8 +69,8 @@
     .section_eig_box {
         gap: 6rem;
     }
-    .section_eig_box_list, .section_eig_box_list.w90 {
-        padding: 18% 16%;
+    label {
+        padding: 2.5% 2.5%;
     }
     /* ===== sec8 ===== */
     /* ===== sec4 ===== */
@@ -206,9 +210,9 @@ font-size: 2.3rem;
     margin-left: 2rem;
 }
 .section_thr_left::after {
-    top: 65px;
+    top: 67px;
     left: 16.4rem;
-    right: 2px;
+    right: 9px;
 }
 .section_thr_left_bottom a {
     font-size: 1.6rem;
@@ -250,7 +254,7 @@ label {
     padding: 7% 10%;
 }
 .section_eig_box_one_list li, .section_eig_box_list li{
-font-size: 1.8rem;
+font-size: 1.6rem;
 }
 .panel a.section_eig_panel_none{
     display: none;
@@ -318,10 +322,60 @@ font-size: 1.8rem;
 .footer_copyright{
     margin-left: 7.6rem;
 }
+}
 /* ====================================
     ======= footer ======    
 ==================================== */
 /* ====================================
     ======= 1000 ======    
 ==================================== */
+
+/* ====================================
+    ======= 900 ======    
+==================================== */
+@media screen and (max-width:900px) {
+    /* ===== header ===== */
+    header {
+        height: 10rem;
+    }
+    .header_logo {
+        width: 100%;
+        margin-left: 0;
+    }
+    ul.nav{
+        display: none;
+    } 
+    .w900icon{
+        display: inline-block;
+    }
+    .header_logo{
+        justify-content: center;
+    }
+    .header_logo>img.logo_img{
+        padding-left: 17rem;
+        width: 4.7rem;
+    }
+    .logo_text{
+        padding-right: 17rem;
+    }
+    /* ===== header ===== */
+    /* ===== sec1 ===== */
+    .section_one img {
+        width: 75%;
+    }
+    .section_one::before {
+        top: 38%;
+        right: 7%;
+    }
+    .section_one::after {
+        top: 38%;
+        right: 7%;
+    }
+    /* ===== sec1 ===== */
+    /* ===== sec2 ===== */
+    
+    /* ===== sec2 ===== */
 }
+/* ====================================
+    ======= 900 ======    
+==================================== */
