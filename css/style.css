@@ -281,7 +281,7 @@ main{
 .section_two_left_icon{
     width: 7rem;
     margin-bottom: 3rem;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .section_two_left_icon[alt="민원 포털"]{
     margin-bottom: 3.8rem;
@@ -301,7 +301,7 @@ main{
     backdrop-filter: blur( 4px );
 }
 .section_two_left_icon_one:hover, .section_two_left_icon_two:hover, .section_two_left_icon_thr:hover{
-    transform: rotate(5deg);
+    transform: rotate(10deg);
 }
 /* ===== section_two_left ===== */
 
@@ -571,7 +571,7 @@ main{
     background-color: var(--bg);
     position: absolute;
     border-radius: 0 2rem 2rem 2rem;
-    padding: 3%5%;
+    padding: 0% 5%;
     padding-top: 0;
     box-sizing: border-box;
 }
@@ -579,8 +579,7 @@ main{
     display: block;
     font-size: 1.8rem;
     font-weight: 700;
-    margin-top: 1.7rem;
-    margin-bottom: 1.4rem;
+    padding: 4% 0%;
     color: var(--primary3);
 }
 /* .panel>a:hover{
