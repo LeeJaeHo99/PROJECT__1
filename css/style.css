@@ -223,6 +223,7 @@ main{
     transform: rotate(180deg);
     cursor: pointer;
 }
+
 /* ===== section_one arrow===== */
 
 /* ===== section_one banner===== */
@@ -699,7 +700,7 @@ input:checked+label{
 }
 .w90 li:before{
     position: absolute;
-    top: 1.6rem;
+    top: 1.5rem;
     left: -.5rem;
     content: "";
     width: 1px;
@@ -710,7 +711,7 @@ input:checked+label{
 .num li::after{
     position: absolute;
     content: "1";
-    top: 1.15rem;
+    top: 0.9rem;
     left: -1.3rem;
     width: 2.2rem;
     height: 2.2rem;

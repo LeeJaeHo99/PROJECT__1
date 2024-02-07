@@ -15,15 +15,15 @@
         height: 34rem;
     }
     .section_one img{
-        width: 85%;
+        width: 80%;
     }
     .section_one img:before{
         top: 36%;
-        right: 3%;
+        right: 5%;
     }
     .section_one img:after{
         top: 36%;
-        left: 3%;
+        left: 5%;
     }
     /* ===== sec1 ===== */
     /* ===== sec2 ===== */
@@ -71,6 +71,12 @@
     }
     label {
         padding: 2.5% 2.5%;
+    }
+    .section_eig_box_title {
+        margin-bottom: 7rem;
+    }
+    .section_eig_box_list, .section_eig_box_list.w90 {
+        padding: 13% 13%;
     }
     /* ===== sec8 ===== */
     /* ===== sec4 ===== */
@@ -164,6 +170,14 @@ ul.dep1.dep1_6.nav_six{
     width: 318%;
 }
 /* ===== header ===== */
+/* ===== sec1 ===== */
+.section_one::after {
+    left: 5%;
+}
+.section_one::before{
+    right: 5%;
+}
+/* ===== sec1 ===== */
 /* ===== sec2 ===== */
 .section_two {
     height: 33.5rem;
@@ -336,7 +350,7 @@ font-size: 1.6rem;
 @media screen and (max-width:900px) {
     /* ===== header ===== */
     header {
-        height: 10rem;
+        height: 14rem;
     }
     .header_logo {
         width: 100%;
@@ -347,6 +361,8 @@ font-size: 1.6rem;
     } 
     .w900icon{
         display: inline-block;
+        width: 2.5rem;
+        cursor: pointer;
     }
     .header_logo{
         justify-content: center;
@@ -360,6 +376,12 @@ font-size: 1.6rem;
     }
     /* ===== header ===== */
     /* ===== sec1 ===== */
+    .section_one {
+        height: 32.5rem;
+    }
+    .section_one_banner {
+        box-shadow: 1.5rem 1.3rem 4rem 4px rgba(0, 0, 0, 26%);
+    }
     .section_one img {
         width: 75%;
     }
@@ -373,9 +395,184 @@ font-size: 1.6rem;
     }
     /* ===== sec1 ===== */
     /* ===== sec2 ===== */
-    
+    .section_two {
+        height: 36.5rem;
+        padding-top: 3rem;
+    }
+    .section_two > .inner{
+        display: block;
+    }
+    .section_two_left, .section_two_right{
+        margin: auto;
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        column-gap: 7rem;
+    }
+    .section_two_left{
+        width: 50%;
+        padding-top: 4rem;
+    }
+    .section_two_right{
+        width: 70%;
+        margin-top: 5.5rem;
+    }
+    .section_two_right_top{
+        text-align: left;
+        width: 65%;
+    }
+    .section_two_right_bottom.df{
+        width: 35%;
+        margin-top: 0;
+    }
+    .section_two_right_bottom_img {
+        width: 20%;
+    }
+    .section_two_right_bottom_text{
+        width: 50%;
+    }
+    .section_two_right_bottom_text_bottom_left{
+        font-size: 3.5rem;
+    }
     /* ===== sec2 ===== */
+    /* ===== sec3 ===== */
+    .section_thr {
+        height: 40.5rem;
+    }
+    .section_thr_left::before {
+        right: 8px;
+    }
+    .section_thr_right::before {
+        right: 8px;
+    }
+    .section_thr_left::after {
+        top: 77px;
+        left: 16.4rem;
+        right: -17px;
+    }
+    .section_thr_left_bottom {
+        margin-top: 3.5rem;
+    }
+    .section_thr_right::after {
+        width: 8rem;
+        top: 16rem;
+        left: 13.3rem;
+    }
+    .section_thr_right_bottom {
+        margin-top: 26rem;
+    }
+    .section_thr_right_sns {
+        left: 0.3rem;
+    }
+    /* ===== sec3 ===== */
+    /* ===== sec8 ===== */
+    .section_eig{
+        height: 84rem;
+    }
+    .section_eig>.inner{
+        display: block;
+    }
+    .section_eig_pannel{
+        width: 85%;
+        margin-left: 11rem;
+    }
+    .tabs{
+        margin-bottom: 5rem;
+    }
+    label {
+        font-size: 1.6rem;
+        padding: 1.5% 6%;
+    }
+    .panel a.section_eig_panel_none {
+        display: block;
+    }
+    .section_eig_panel_none{
+        display: block;
+    }
+    .panels{
+        height: 26rem;
+        box-shadow: -3px 9px 17px 0px rgba( 31, 38, 135, 0.37 );
+    }
+    .panel{
+        width: 100%;
+    }
+    .section_eig_box{
+        margin: auto;
+        width: 59%;
+        gap: 10rem;
+    }
+    .section_eig_box_title{
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+    }
+    .section_eig_box_list, .section_eig_box_list.w90 {
+        padding: 14% 18%;
+    }
+    .section_eig_box_one_list li, .section_eig_box_list li {
+        font-size: 1.8rem;
+        padding-left: 13%;
+    }
+    /* ===== sec8 ===== */
+    /* ===== sec7 ===== */
+    .section_sev_title.h5{
+        margin-left: 6rem;
+    }
+    .section_sev_box_one, .section_sev_box_two, .section_sev_box_thr {
+        width: 20rem;
+        height: 13rem;
+    }
+    .section_sev_box_title {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+    }
+    .section_sev_box_text {
+        margin-bottom: 1.5rem;
+    }
+    .section_sev_img_one:before {
+        opacity: .4;
+    }
+    .section_sev_img_two:before {
+        opacity: .4;
+    }
+    .section_sev_img_thr:before {
+        opacity: .4;
+    }
+    
+    .detail_one:before, .detail_one:after, .detail_two:before, .detail_two:after, .detail_thr:before, .detail_thr:after {
+        right: 13.2rem;
+    }
+    .footer_copyright {
+        margin-left: 3rem;
+    }
+    .footer_caution {
+        margin-left: 3rem;
+    }
 }
+/* ===== sec7 ===== */
 /* ====================================
     ======= 900 ======    
 ==================================== */
+
+/* ====================================
+    ======= 800 ======    
+==================================== */
+@media screen and (max-width:800px) {
+    /* ===== sec1 ===== */
+    .section_one {
+        height: 30.5rem;
+    }
+    /* ===== sec1 ===== */
+    /* ===== sec2 ===== */
+    .section_two_left {
+        width: 65%;
+    }
+    /* ===== sec2 ===== */
+}
+/* ====================================
+    ======= 800 ======    
+==================================== */
+
+/* 민원전화 포지션 앱솔 */
+/* sec3 한줄씩 */
+/* sec8 panel 위로 올리기 */
+/* sec8 박스 dis none */
