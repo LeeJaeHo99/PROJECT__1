@@ -1225,7 +1225,141 @@ font-size: 1.6rem;
     .detail_one:before, .detail_one:after, .detail_two:before, .detail_two:after, .detail_thr:before, .detail_thr:after {
         right: 52.2rem;
     }
+    .footer_address {
+        margin-top: 0;
+        margin-left: -4.5rem;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 1rem;
+        height: 12rem;
+        justify-content: space-around;
+    }
 }
 /* ====================================
     ======= 600 ======    
+==================================== */
+
+/* ====================================
+    ======= 550 ======    
+==================================== */
+@media screen and (max-width:550px){
+    .section_two_right_top {
+        font-size: 2rem;
+    }
+    div.section_two_right {
+        width: 88%;
+    }
+    .section_thr_left::after {
+        top: 89px;
+    }
+    .section_thr_right::after {
+        width: 11rem;
+        top: 21rem;
+        left: 25.3rem;
+    }
+    .section_eig_box {
+        gap: 11rem;
+    }
+    label {
+        padding: 1.5% 4%;
+    }
+    .section_six_box_thr {
+        width: 92%;
+        column-gap: 2rem;
+        height: 33rem;
+    }
+    .section_sev_title.h5 {
+        font-size: 2.1rem;
+    }
+    .footer_box_text {
+        font-size: 1.2rem;
+    }
+}
+/* ====================================
+    ======= 550 ======    
+==================================== */
+
+/* ====================================
+    ======= 540 ======    
+==================================== */
+@media screen and (max-width:540px){
+    .section_for_one > a, .section_for_two > a, .section_for_thr > a, .section_for_for > a {
+        font-size: 1.6rem;
+    }
+    .section_six_box_thr_top_subtitle_one, .section_six_box_thr_top_subtitle_two, .section_six_box_thr_top_subtitle_thr, .section_six_box_thr_bottom_subtitle_one, .section_six_box_thr_bottom_subtitle_two, .section_six_box_thr_bottom_subtitle_thr {
+        font-size: 1.4rem;
+    }
+}
+/* ====================================
+    ======= 540 ======    
+==================================== */
+
+/* ====================================
+    ======= 500 ======    
+==================================== */
+@media screen and (max-width:500px){
+    .section_one::before {
+        top: 34%;
+        right: 6%;
+    }
+    .section_one::after {
+        top: 34%;
+        left: 6%;
+    }
+    div.section_two_right {
+        width: 93%;
+        margin-top: 5rem;
+    }
+    .section_thr_left, .section_thr_right {
+        height: 34rem;
+    }
+    .section_thr_left::after {
+        top: 85px;
+        left: 31.4rem;
+    }
+    .section_thr_left_top {
+        margin-left: 10rem;
+        top: 3.5rem;
+    }
+    .section_thr_left_bottom {
+        margin-top: 7.5rem;
+    }
+    .section_thr_left_bottom p {
+        margin-bottom: 1rem;
+        margin-left: 9rem;
+    }
+    .section_thr_right_bottom {
+        margin-top: 29rem;
+    }
+    .section_eig {
+        padding-top: 47rem;
+    }
+    div.section_fiv_box_set {
+        height: 12rem;
+    }
+    .section_fiv_box_text > a {
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+    .section_six {
+        padding-top: 0rem;
+        height: 29rem;
+    }
+    .section_six_box_thr {
+        width: 96%;
+        column-gap: 1rem;
+    }
+    .section_sev_title.h5 {
+        font-size: 2rem;
+        margin-left: 3rem;
+    }
+    .section_sev_box_one, .section_sev_box_two, .section_sev_box_thr {
+        width: 51rem;
+    }
+    .detail_one:before, .detail_one:after, .detail_two:before, .detail_two:after, .detail_thr:before, .detail_thr:after {
+        right: 43.2rem;
+    }
+}
+/* ====================================
+    ======= 500 ======    
 ==================================== */

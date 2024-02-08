@@ -10,7 +10,6 @@
     font-size: 1.8rem;
     line-height: 1.75;
     background-color: #fff;
-    background-image: url(../img/bg/bg2.png);
     border-radius: 3%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
     z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
@@ -20,7 +19,7 @@
 .popup>span{
     user-select: none;
     position: absolute;
-    background-color: gray;
+    background-color: var(--primary1);
     color: #fff;
     border-radius: 5%;
     padding: 0% 2%;
@@ -205,8 +204,8 @@ main{
     background-image: url(../img/icon/arrow.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    top: 47%;
-    right: 13%;
+    top: 44%;
+    right: 10%;
     cursor: pointer;
 }
 .section_one::after{
@@ -218,8 +217,8 @@ main{
     background-image: url(../img/icon/arrow.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    top: 47%;
-    left: 13%;
+    top: 44%;
+    left: 10%;
     transform: rotate(180deg);
     cursor: pointer;
 }
@@ -1421,3 +1420,50 @@ footer:after{
 /* ====================================
 ======= footer ======    
 ==================================== */
+
+/* 
+#sitemap {
+	display: none;
+	position: fixed;
+	background-color: blue;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 80vh;
+	overflow: hidden;
+}
+.contentmap {
+	width: 80%;
+	position: fixed;
+	background-color: red;
+	height: 80vh;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow-y: auto;
+}
+li {
+	height: 100px;
+}
+button {
+	width: 150px;
+	height: 150px;
+	font-size: 2em;
+}
+.red {
+	background-color: red;
+}
+.all_scrollFixed {
+	overflow: hidden;
+}
+.all_scrollFixed::before {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: '';
+  background-color: rgba(0,0,0,.5);
+}
+body {
+	height: 300vh;
+} */
