@@ -1,4 +1,69 @@
 /* ====================================
+    ======= 1205 ======    
+==================================== */
+@media screen and (max-width:1205px) {
+    .section_six_box_thr_top, .section_six_box_thr_bottom {
+        width: 97%;
+    }
+}
+/* ====================================
+    ======= 1205 ======    
+==================================== */
+
+/* ====================================
+    ======= 1200 ======    
+==================================== */
+@media screen and (max-width:1200px) {
+    label {
+        padding: 2.5% 3%;
+    }
+}
+/* ====================================
+    ======= 1200 ======    
+==================================== */
+
+/* ====================================
+    ======= 1153 ======    
+==================================== */
+@media screen  and (max-width:1153px) {
+    .section_two_right_bottom_text_bottom_right {
+        font-size: 1.3rem;
+    }
+}
+/* ====================================
+    ======= 1153 ======    
+==================================== */
+
+/* ====================================
+    ======= 1127 ======    
+==================================== */
+@media screen and (max-width:1127px) {
+    .nav>li>a {
+        display: block;
+        padding: 15% 16%;
+    }
+}
+/* ====================================
+    ======= 1127 ======    
+==================================== */
+
+/* ====================================
+    ======= 1125 ======    
+==================================== */
+@media screen and (max-width:1125px) {
+    .section_eig_box {
+        gap: 6rem;
+    }
+    .section_six_box_thr_top, .section_six_box_thr_bottom {
+        width: 99%;
+    }
+}
+/* ====================================
+    ======= 1125 ======    
+==================================== */
+
+
+/* ====================================
     ======= 1100 ======    
 ==================================== */
 @media screen  and (max-width:1100px) {
@@ -46,6 +111,9 @@
     .section_two_right_bottom_text {
         width: 32%;
     }
+    .section_two_right_bottom_img {
+        width: 13%;
+    }
     /* ===== sec2 ===== */
     /* ===== sec3 ===== */
     .section_thr_left::after {
@@ -77,6 +145,9 @@
     }
     .section_eig_box_list, .section_eig_box_list.w90 {
         padding: 13% 13%;
+    }
+    .section_six_box_thr_top_subtitle_one, .section_six_box_thr_top_subtitle_two, .section_six_box_thr_top_subtitle_thr, .section_six_box_thr_bottom_subtitle_one, .section_six_box_thr_bottom_subtitle_two, .section_six_box_thr_bottom_subtitle_thr {
+        font-size: 1.5rem;
     }
     /* ===== sec8 ===== */
     /* ===== sec4 ===== */
@@ -121,6 +192,106 @@
     /* ====================================
     ======= 1100 ======    
     ==================================== */
+
+    /* ====================================
+        ======= 1088 ======    
+    ==================================== */
+    /* ===== sec8 ===== */
+    @media screen and (max-width:1088px) {
+        label {
+            padding: 2.5% 2.3%;
+        }
+    }
+    /* ===== sec8 ===== */
+    /* ====================================
+        ======= 1088 ======    
+    ==================================== */
+
+/* ====================================
+    ======= 1070 ======    
+==================================== */
+@media screen and (max-width:1070px) {
+    /* ===== header ===== */
+    .nav>li>a {
+        padding: 15% 14%;
+    }
+    /* ===== header ===== */
+    /* ===== sec2 ===== */
+    .section_two_right {
+        width: 36%;
+    }
+    /* ===== sec2 ===== */
+    /* ===== sec3 ===== */
+    .section_thr_left::after {
+        top: 44px;
+        left: 18.4rem;
+        right: 1px;
+    }
+}
+    /* ===== sec3 ===== */
+/* ====================================
+    ======= 1070 ======    
+==================================== */
+
+/* ====================================
+    ======= 1062 ======    
+==================================== */
+@media screen and (max-width:1062px) {
+    label {
+        font-size: 1.7rem;
+    }
+}
+/* ====================================
+    ======= 1062 ======    
+==================================== */
+
+/* ====================================
+    ======= 1045 ======    
+==================================== */
+@media screen and (max-width:1045px) {
+    ul.section_eig_box_one_list li, ul.section_eig_box_list li {
+        font-size: 1.8rem;
+    }
+}
+/* ====================================
+    ======= 1045 ======    
+==================================== */
+
+/* ====================================
+    ======= 1034 ======    
+==================================== */
+@media screen and (max-width:1034px){
+    .text {
+        font-size: 1.5rem;
+    }
+}
+/* ====================================
+    ======= 1034 ======    
+==================================== */
+
+/* ====================================
+    ======= 1026 ======    
+==================================== */
+@media screen and (max-width:1026px) {
+    .section_thr_left_bottom {
+        margin-top: 6.5rem;
+    }
+}
+/* ====================================
+    ======= 1026 ======    
+==================================== */
+/* ====================================
+    ======= 1023 ======    
+==================================== */
+@media screen and (max-width: 1023px){
+label {
+    padding: 2.5% 2.1%;
+}
+}
+/* ====================================
+    ======= 1023 ======    
+==================================== */
+
 
 /* ====================================
     ======= 1000 ======    
@@ -232,7 +403,9 @@ font-size: 2.3rem;
     font-size: 1.6rem;
     margin-left: 4rem;
 }
-
+.section_two_right_bottom_img {
+    max-width: 6rem;
+}
 .section_thr_left_bottom p a::before {
     left: 3rem;
 }
@@ -243,10 +416,15 @@ font-size: 2.3rem;
 .section_thr_right_sns {
     left: 0rem;
 }
+.section_thr_right::after {
+    top: 16rem;
+    left: 13.8rem;
+    width: 8rem;
+}
 /* ===== sec3 ===== */
 /* ===== sec8 ===== */
 .section_eig {
-    width: 90%;
+    width: 100%;
     height: 37.5rem;
 }
 .section_eig_title, .section_eig_box_title{
@@ -345,6 +523,61 @@ font-size: 1.6rem;
 ==================================== */
 
 /* ====================================
+    ======= 987 ======    
+==================================== */
+@media screen and (max-width:987px) {
+    .text {
+        font-size: 1.4rem;
+    }
+    .nav {
+        width: 56%;
+}
+}
+/* ====================================
+    ======= 987 ======    
+==================================== */
+
+/* ====================================
+    ======= 949 ======    
+==================================== */
+@media screen and (max-width:949px) {
+    ul.section_eig_box_one_list li, ul.section_eig_box_list li {
+        font-size: 1.6rem;
+    }
+    .section_eig_box_list, .section_eig_box_list.w90 {
+        padding: 7% 7%;
+    }
+}
+/* ====================================
+    ======= 949 ======    
+==================================== */
+
+/* ====================================
+    ======= 940 ======    
+==================================== */
+@media screen and (max-width:940px) {
+    .nav {
+        width: 59%;
+    }
+}
+/* ====================================
+    ======= 940 ======    
+==================================== */
+
+/* ====================================
+    ======= 920 ======    
+==================================== */
+@media screen and (max-width:920px){
+    .section_eig_pannel {
+        width: 37%;
+        margin-left: 4rem;
+    }
+}
+/* ====================================
+    ======= 920 ======    
+==================================== */
+
+/* ====================================
     ======= 900 ======    
 ==================================== */
 @media screen and (max-width:900px) {
@@ -396,7 +629,7 @@ font-size: 1.6rem;
     /* ===== sec1 ===== */
     /* ===== sec2 ===== */
     .section_two {
-        height: 36.5rem;
+        height: 47.5rem;
         padding-top: 3rem;
     }
     .section_two > .inner{
@@ -464,6 +697,9 @@ font-size: 1.6rem;
     .section_thr_right_sns {
         left: 0.3rem;
     }
+    div.section_two_right {
+        width: 75%;
+    }
     /* ===== sec3 ===== */
     /* ===== sec8 ===== */
     .section_eig{
@@ -500,6 +736,7 @@ font-size: 1.6rem;
         margin: auto;
         width: 59%;
         gap: 10rem;
+        /* display: none; */
     }
     .section_eig_box_title{
         margin-top: 7rem;
@@ -554,6 +791,48 @@ font-size: 1.6rem;
 ==================================== */
 
 /* ====================================
+    ======= 890 ======    
+==================================== */
+@media screen and (max-width:890px){
+    .footer_link a {
+        font-size: 1.5rem;
+    }
+    .section_eig_pannel {
+        margin-left: 7rem;
+    }
+}
+/* ====================================
+    ======= 890 ======    
+==================================== */
+
+/* ====================================
+    ======= 845 ======    
+==================================== */
+@media screen and (max-width:845px){
+    .footer_box_one, .footer_box_two, .footer_box_thr, .footer_box_for {
+        width: 18rem;
+    }
+    .footer_link a {
+        font-size: 1.4rem;
+    }
+}
+/* ====================================
+    ======= 845 ======    
+==================================== */
+
+/* ====================================
+    ======= 805 ======    
+==================================== */
+@media screen and (max-width:805px){
+    div.section_two_right {
+        width: 80%;
+    }
+}
+/* ====================================
+    ======= 805 ======    
+==================================== */
+
+/* ====================================
     ======= 800 ======    
 ==================================== */
 @media screen and (max-width:800px) {
@@ -566,13 +845,387 @@ font-size: 1.6rem;
     .section_two_left {
         width: 65%;
     }
+    .section_two_right {
+        width: 79%;
+    }
     /* ===== sec2 ===== */
+    /* ===== sec3 ===== */
+    .section_thr .inner {
+        width: 95%;
+    }
+    .section_thr_left_title, .section_thr_right_title {
+        margin-left: 2rem;
+    }
+    .section_thr_left::after {
+        top: 83px;
+    }
+    .section_thr_left_bottom {
+        margin-top: 2.5rem;
+    }
+    .section_thr_right_bottom {
+        margin-top: 25rem;
+    }
+    /* ===== sec3 ===== */
+    /* ===== sec8 ===== */
+    .section_eig_pannel {
+        margin-left: 6rem;
+    }
+    label {
+        padding: 1.5% 5.5%;
+    }
+    .section_eig_box {
+        width: 80%;
+        gap: 17rem;
+    }
+    .section_eig_box_list, .section_eig_box_list.w90 {
+        padding: 10% 30%;
+    }
+    /* ===== sec8 ===== */
+    /* ===== sec4 ===== */
+    .section_for {
+        height: 27rem;
+        width: 99%;
+    }
+    .section_for > .inner.df {
+        padding: 4.5rem 1px;
+    }
+    div.section_for_for > a {
+        right: 20%;
+    }
+    .section_for_box > a {
+        right: 14%;
+    }
+    /* ===== sec4 ===== */
+    /* ===== sec5 ===== */
+    .section_fiv_box.df {
+        column-gap: 5.5rem;
+    }
+    div.section_fiv_box_set {
+        width: 17%;
+        height: 14rem;
+    }
+    /* ===== sec5 ===== */
+    /* ===== sec6 ===== */
+    .section_six_box_thr {
+        width: 90%;
+        margin-right: 0;
+    }
+    /* ===== sec6 ===== */
+    /* ===== sec7 ===== */
+    .section_sev_title.h5 {
+        font-size: 2.4rem;
+    }
+    .section_sev_img_one:before {
+        bottom: -6rem;
+    }
+    .section_sev_img_two:before {
+        bottom: -7.5rem;
+    }
+    .section_sev_img_thr:before {
+        bottom: -7rem;
+    }
+    /* ===== sec7 ===== */
+    /* ===== footer ===== */
+    .footer_link>div.pr:before{
+        display: none;
+    }
+    .footer_link {
+        flex-wrap: nowrap;
+    }
+    .w800_none{
+        display: none;
+    }
+    .footer_address {
+        margin-left: -1.5rem;
+    }
+    .footer_copyright {
+        margin-left: 7rem;
+    }
+    .footer_box_one, .footer_box_two, .footer_box_thr, .footer_box_for {
+        width: 17rem;
+        margin-top: 3rem;
+    }
+    /* ===== footer ===== */
 }
 /* ====================================
     ======= 800 ======    
 ==================================== */
 
-/* 민원전화 포지션 앱솔 */
-/* sec3 한줄씩 */
-/* sec8 panel 위로 올리기 */
-/* sec8 박스 dis none */
+/* ====================================
+    ======= 790 ======    
+==================================== */
+@media screen and (max-width:790px){
+    .section_thr_right_bottom {
+        font-size: 1.6rem;
+    }
+}
+/* ====================================
+    ======= 790 ======    
+==================================== */
+
+/* ====================================
+    ======= 764 ======    
+==================================== */
+@media screen and (max-width:764px){
+    div.section_two_right {
+        width: 86%;
+    }
+    .section_thr_left_bottom {
+        margin-top: 4.5rem;
+    }
+    .section_for_one > a, .section_for_two > a, .section_for_thr > a, .section_for_for > a{
+        font-size: 1.8rem;
+    }
+}
+/* ====================================
+    ======= 764 ======    
+==================================== */
+
+/* ====================================
+    ======= 715 ======    
+==================================== */
+@media screen and (max-width:715px){
+    .section_eig_box_list, .section_eig_box_list.w90 {
+        padding: 10% 21%;
+    }
+    label {
+        padding: 1.5% 5%;
+    }
+    .section_thr_right::after {
+        width: 7rem;
+        top: 14rem;
+        left: 10.3rem;
+    }
+}
+/* ====================================
+    ======= 715 ======    
+==================================== */
+
+/* ====================================
+    ======= 660 ======    
+==================================== */
+@media screen and (max-width:660px){
+    label {
+        padding: 1.5% 4.5%;
+    }
+}
+/* ====================================
+    ======= 660 ======    
+==================================== */
+
+/* ====================================
+    ======= 650 ======    
+==================================== */
+@media screen and (max-width:650px) {
+        html{
+        font-size: 50%;
+    }
+    /* ===== header ===== */
+    header {
+        height: 10rem;
+    }
+    /* ===== header ===== */
+    /* ===== sec1 ===== */
+    .section_one {
+        height: 25.5rem;
+    }
+    .section_one img {
+        width: 75%;
+    }
+    .header_logo>img.logo_img {
+        padding-left: 10rem;
+    }
+    .logo_text {
+        padding-right: 12rem;
+    }
+    .section_one::after {
+        top: 43%;
+    }
+    .section_one::before {
+        top: 43%;
+    }
+    /* ===== sec1 ===== */
+    /* ===== sec2 ===== */
+    .section_two_left_icon {
+        width: 5rem;
+        margin-bottom: 2rem;
+    }
+    .section_two_left_icon[alt="민원 포털"] {
+        margin-bottom: 2.8rem;
+    }
+    .section_two_right {
+        width: 90%;
+    }
+    .section_two_right_top {
+        font-size: 2.4rem;
+    }
+    .section_two_right_bottom_img {
+        width: 20%;
+    }
+    .section_two_right_bottom.df {
+        width: 45%;
+    }
+    .section_two_left_text>a {
+        font-weight: 700;
+    }
+    /* ===== sec2 ===== */
+    /* ===== sec3 ===== */
+    .section_thr_left, .section_thr_right {
+        width: 90%;
+        height: 40rem;
+    }
+    .section_thr_right{
+        padding-top: 3rem;
+    }
+    .section_thr_left_top {
+        font-size: 1.8rem;
+        margin-left: 12rem;
+        top: 4.5rem;
+    }
+    .section_thr_left_bottom {
+        margin-top: 9.5rem;
+    }
+    .section_thr_left_bottom a {
+        font-size: 2rem;
+    }
+    .section_thr_left_bottom p {
+        margin-bottom: 2rem;
+        margin-left: 9rem;
+    }
+    .section_thr_left::after {
+        top: 122px;
+        right: -4px;
+    }
+    .section_thr_right::after {
+        width: 7rem;
+        top: 14rem;
+        left: 9.3rem;
+    }
+    .section_thr_right_bottom {
+        margin-top: 22rem;
+        font-size: 1.6rem;
+    }
+    /* ===== sec3 ===== */
+    .section_thr > .inner{
+        flex-direction: column;
+    }
+    .section_thr_left::before{
+        right: 22px;
+        top: 8rem;
+        bottom: 0;
+        left: 7rem;
+    }
+    .section_thr_left::after {
+        top: 122px;
+        right: 0px;
+        left: 43.4rem;
+    }
+    div.section_thr_left_title{
+        display: block;
+    }
+    .section_thr_right_title {
+        padding-top: 2rem;
+    }
+    .section_thr_right:before{
+        right: 27px;
+        top: 12rem;
+        bottom: 0;
+        left: 7rem;
+    }
+    .section_thr_right::after {
+        width: 12rem;
+        top: 24rem;
+        left: 30.3rem;
+    }
+    .section_thr_right_bottom {
+        margin-top: 38rem;
+        margin-left: 8rem;
+        font-size: 2.4rem;
+    }
+    .sns::before {
+        width: 23rem;
+        top: -1rem;
+        bottom: 0;
+        left: 8rem;
+        right: 0;
+    }
+    .section_thr_right_sns {
+        left: 8.3rem;
+        width: 32rem;
+    }
+    /* ===== sec8 ===== */
+    .section_eig {
+        height: 84rem;
+        padding-top: 61rem;
+    }
+    /* ===== sec8 ===== */
+}
+/* ====================================
+    ======= 650 ======    
+==================================== */
+
+/* ====================================
+    ======= 630 ======    
+==================================== */
+@media screen and (max-width:630px){
+    .section_two_right_top {
+        font-size: 2.2rem;
+    }
+}
+/* ====================================
+    ======= 630 ======    
+==================================== */
+
+/* ====================================
+    ======= 600 ======    
+==================================== */
+@media screen and (max-width:600px){
+    .section_two {
+        height: 42.5rem;
+        padding-top: 3rem;
+    }
+    .section_thr_left::after {
+        top: 67px;
+        right: 0px;
+        left: 33.4rem;
+    }
+    .section_sev {
+        height: 70rem;
+    }
+    .section_sev_box {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+    .section_sev_box_one, .section_sev_box_two, .section_sev_box_thr {
+        width: 60rem;
+        height: 15rem;
+    }
+    .section_sev_box_title {
+        font-size: 2.4rem;
+    }
+    .section_sev_box_text {
+        font-size: 1.8rem;
+    }
+    .section_sev_img_one:before{
+        bottom: -10rem;
+        width: 14rem;
+        height: 12rem;
+    }
+    .section_sev_img_two:before {
+        bottom: -9.5rem;
+        width: 12rem;
+        height: 11rem;
+    }
+    .section_sev_img_thr:before {
+        bottom: -11rem;
+        width: 12rem;
+        height: 12rem;
+    }
+    .detail_one:before, .detail_one:after, .detail_two:before, .detail_two:after, .detail_thr:before, .detail_thr:after {
+        right: 52.2rem;
+    }
+}
+/* ====================================
+    ======= 600 ======    
+==================================== */

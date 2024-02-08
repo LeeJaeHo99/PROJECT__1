@@ -206,7 +206,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover; 
     top: 47%;
-    right: 7%;
+    right: 13%;
     cursor: pointer;
 }
 .section_one::after{
@@ -219,7 +219,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover; 
     top: 47%;
-    left: 7%;
+    left: 13%;
     transform: rotate(180deg);
     cursor: pointer;
 }
@@ -230,7 +230,7 @@ main{
 .section_one_banner{
     /* padding: 10% 10%; */
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: 100%;
     border-radius: 3rem;
     box-shadow: 1.5rem 1.3rem 8.1rem rgba(0, 0, 0, 26%);
@@ -266,7 +266,7 @@ main{
     bottom:0px;
 }
 .section_two>.inner.df{
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 /* ===== section_two layout ===== */
@@ -286,6 +286,7 @@ main{
     border-radius: 3rem;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: all 0.5s;
+    margin-left: 5rem;
 }
 .section_two_left_icon{
     width: 7rem;
@@ -315,8 +316,8 @@ main{
 /* ===== section_two_left ===== */
 
 /* ===== section_two_right ===== */
-.section_two_right{
-    width: 50%;
+div.section_two_right{
+    width: 52%;
     margin-top: 9rem;
     text-align: right;
 }
@@ -421,6 +422,19 @@ main{
     left: 15.4rem;
     right: 0px;
 }
+.section_thr_left_title:before{
+    content: "";
+    background-image: url(../img/picture/sec3_left_w650.png);
+    position: absolute;
+    z-index: 99999999999999999999999999999999999999999999999999999999999;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    top: 0;
+    bottom: 0rem;
+    left: 0;
+    right: 0px;
+    display: none;
+}
 .section_thr_left_title, .section_thr_right_title{
     font-size: 2.8rem;
     font-weight: 600;
@@ -442,9 +456,10 @@ main{
     margin-top: 10rem;
     margin-left: 2.5rem;
     line-height: 1.5;
+    top: 2.5rem;
 }
 .section_thr_left_bottom{
-    margin-top: 4.5rem;
+    margin-top: 9.5rem;
 }
 .section_thr_left_bottom p{
     margin-bottom: 1rem;
@@ -668,21 +683,22 @@ input:checked+label{
     font-weight: 600;
     color: var(--text4);
     font-size: 2.8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 .section_eig_box_list{
     background: #e3ebf8 url(../img/picture/section_eig_box_bg.png) no-repeat right bottom/cover;
     border: 1px solid #acc5ee;
     border-radius: 1rem;
     width: 88%;
-    padding: 20% 24%;
+    padding: 14% 15%;
 }
 .section_eig_box_list.w90{
     background: #e3ebf8 url(../img/picture/section_eig_box_bg.png) no-repeat right bottom/cover;
     border: 1px solid #acc5ee;
     border-radius: 1rem;
     width: 90%;
-    padding: 20% 24%;
+    padding: 14% 15%;
+    max-width: 28rem;
 }
 .section_eig_box_one_list li, .section_eig_box_list li{
     padding-left: 13%;
