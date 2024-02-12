@@ -46,6 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+button{
+    border: 0;
+    background: none;
+}
 
 /* custom */
 html{
@@ -60,7 +64,7 @@ html{
     -moz-osx-font-smoothing: grayscale;
 }
 :root{
-    --primary1: #0054a6;
+    --primary1: rgb(0, 84, 166);
     --primary2: #001325;
     --primary3: #003478;
     --accent1: #a3192d;
@@ -122,17 +126,23 @@ body{
     position: absolute;
 }
 .b1s{
-    border: 1px solid;
+    border: 1.5px solid;
 }
 .b1st{
-    border-top: 1px solid;
+    border-top: 1.5px solid #b4b4b4;
 }
 .b1sb{
-    border-bottom: 1px solid;
+    border-bottom: 1.5px solid #b4b4b4;
+}
+.b1db{
+    border-bottom: 1.5px dashed #b4b4b4;
 }
 .b1sr{
-    border-right: 1px solid;
+    border-right: 1.5px solid#b4b4b4;
+}
+.b1dr{
+    border-right: 1.5px dashed #b4b4b4;
 }
 .b1sl{
-    border-left: 1px solid;
+    border-left: 1.5px solid#b4b4b4;
 }

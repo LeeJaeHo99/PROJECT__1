@@ -4,11 +4,11 @@ btn.onclick = function(){
     pop.style.display = 'none';
 };
 
-$('.o').on('click', function () {
+$('.menu_open').on('click', function () {
     $('html').addClass('all_scrollFixed');
     $('#sitemap').show();
-    $('.x').on('click', function () {
-    $('#sitemap').hide();
-    $('html').removeClass('all_scrollFixed');
+    $('.close_btn').on('click', function () {
+      $('#sitemap').hide();
+      $('html').removeClass('all_scrollFixed');
     });
-})
+  })
