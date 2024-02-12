@@ -1462,6 +1462,21 @@ font-size: 1.6rem;
         margin-right: 1rem;
         margin-left: 1rem;
     }
+    .footer_list_one li, .footer_list_two li, .footer_list_thr li, .footer_list_for li{
+        background-color: #f6f6f6;
+}
+.footer_list_two, .footer_list_thr, .footer_list_for{
+    width: 90%;
+}
+.footer_list_two{
+    top: -22.1rem;
+}
+.footer_list_thr{
+    top: -8.8rem;
+}
+.footer_list_for{
+    top: -3.5rem;
+}
     footer{
         height: 44rem;
     }

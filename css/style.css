@@ -155,6 +155,13 @@
 .contentmap_one, .contentmap_two, .contentmap_thr, .contentmap_for, .contentmap_fiv{
     margin-bottom: 2rem;
 }
+.menu_open>i{
+    cursor: pointer;
+}
+.close_btn>i{
+    color: white;
+    cursor: pointer;
+}
 /* ====================================
     ======= sitemap ======    
 ==================================== */
@@ -235,7 +242,7 @@ header .nav{
     text-align: center;
     display: inline;
 }
-.nav.df>li>a.menu_icon_a{
+.nav.df>li>.menu_icon_a{
     text-align: center;
     display: inline;
 }
@@ -1524,4 +1531,3 @@ footer{
 /* ====================================
 ======= footer ======    
 ==================================== */
-
