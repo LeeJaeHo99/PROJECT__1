@@ -789,18 +789,57 @@ font-size: 1.6rem;
     /* ===== footer ===== */
     /* ===== site map_w900 ===== */
     .contentmap:before {
-        width: 24%;
+        width: 18%;
         height: 29%;
+        background-size: contain;
+        top: 3rem;
+        right: 6rem;
     }
     .contentmap_one, .contentmap_two, .contentmap_thr, .contentmap_for, .contentmap_fiv, .contentmap_six{
         display: block;
+        border: 1px solid var(--primary1);
+        padding: 2% 0 0 2%;
     }
     .contentmap_title{
         border: 0;
+        font-size: 2.4rem;
     }
     .contentmap_right{
         margin-top: 3rem;
         margin-bottom: 5rem;
+    }
+    .contentmap_box{
+        display: block;
+        border: 0;
+    }
+    .contentmap_subtitle_box{
+        height: 5rem;
+        width: 100%;
+    }
+    .contentmap_subtitle{
+        font-size: 2rem;
+        padding: 1% 2%;
+        border: 0;
+    }
+    .contentmap_text_box{
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+        line-height: 1.8;
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .contentmap_text{
+        font-size: 1.8rem;
+    }
+    .resdb{
+        display: block;
+    }
+    .resdib{
+        display: inline-block;
+    }
+    .resdi{
+        display: inline;
     }
     /* ===== site map_w900 ===== */
 }
@@ -824,6 +863,18 @@ font-size: 1.6rem;
 ==================================== */
 
 /* ====================================
+    ======= 890 ======    
+==================================== */
+@media screen and (max-width:883px){
+    .text_six_for{
+        display: block;
+    }
+}
+/* ====================================
+    ======= 890 ======    
+==================================== */
+
+/* ====================================
     ======= 845 ======    
 ==================================== */
 @media screen and (max-width:845px){
@@ -832,13 +883,6 @@ font-size: 1.6rem;
     }
     .footer_link a {
         font-size: 1.4rem;
-    }
-    .contentmap_box{
-        height: 3rem;
-        /* width: 150%; */
-    }
-    .dn_w845{
-        display: none;
     }
 }
 /* ====================================
@@ -1223,7 +1267,7 @@ font-size: 1.6rem;
         row-gap: 3rem;
     }
     .section_sev_box_one, .section_sev_box_two, .section_sev_box_thr {
-        width: 60rem;
+        width: 90%;
         height: 15rem;
     }
     .section_sev_box_title {
@@ -1249,6 +1293,19 @@ font-size: 1.6rem;
     }
     .detail_one:before, .detail_one:after, .detail_two:before, .detail_two:after, .detail_thr:before, .detail_thr:after {
         right: 52.2rem;
+    }
+    .footer_box{
+        display: block;
+    }
+    .footer_box_one, .footer_box_two, .footer_box_thr, .footer_box_for{
+        margin: auto;
+        width: 95%;
+    }
+    .footer_list{
+        width: 100%;
+    }
+    .footer_list li {
+        width: 100%;
     }
     .footer_address {
         margin-top: 0;
@@ -1353,11 +1410,19 @@ font-size: 1.6rem;
         margin-bottom: 1rem;
         margin-left: 9rem;
     }
+    .section_thr_right::after {
+        width: 10rem;
+        top: 20rem;
+        left: 23.3rem;
+    }
     .section_thr_right_bottom {
         margin-top: 29rem;
     }
     .section_eig {
         padding-top: 47rem;
+    }
+    .section_eig_pannel {
+        margin-left: 4rem;
     }
     .section_eig_box {
         gap: 8rem;
@@ -1390,9 +1455,19 @@ font-size: 1.6rem;
     .detail_one:before, .detail_one:after, .detail_two:before, .detail_two:after, .detail_thr:before, .detail_thr:after {
         right: 43.2rem;
     }
+    .footer_box{
+        padding-top: 2rem;
+    }
+    .footer_box_one, .footer_box_two, .footer_box_thr, .footer_box_for {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    footer{
+        height: 44rem;
+    }
     .footer_address {
         margin-top: 0;
-        margin-left: -4.5rem;
+        margin-left: -.5rem;
         align-items: center;
         column-gap: 0rem;
         flex-direction: row;
@@ -1406,8 +1481,30 @@ font-size: 1.6rem;
         font-size: 1.4rem;
     }
     .footer_copyright{
-        text-align: center;
+        margin-left: 1.5rem;
     }
+    .footer_box_text {
+        font-size: 1.8rem;
+    }
+
+    /* ===== sitemap ===== */
+    .contentmap:before {
+        top: 3rem;
+        right: 1rem;
+        width: 27%;
+        height: 20%;
+        background-size: contain;
+    }
+    .res500_dib{
+        display: inline-block;
+    }
+    .res500_di{
+        display: inline;
+    }
+    .contentmap_subtitle_box{
+        border: 0;
+    }
+    /* ===== sitemap ===== */
 }
 /* ====================================
     ======= 500 ======    
