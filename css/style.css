@@ -33,7 +33,23 @@
 .wrap{
     width: 100%;
 }
-
+a.skip_menu {
+    position: fixed;
+    z-index: 99999999999999999999999999999999999999999;
+    left: 50%;
+    top: 0;
+    font-size: 2rem;
+    background: var(--primary1);
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    transform: translateY(-100%);
+    text-align: center;
+    width: 9%;
+}
+a.skip_menu:focus {
+    transform: translateX(-50%) translateY(0);
+}
 /* ====================================
     ======= sitemap ======    
 ==================================== */
@@ -273,7 +289,7 @@ ul.dep1.w165{
 .dep1>li>a{
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 3%;
+    padding: 4%;
     margin: 2%;
     /* background-color: lightgreen; */
 }
@@ -744,7 +760,7 @@ div.section_two_right{
 .panel>p{
     font-size: 1.4rem;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.4;
     padding-bottom: 2.4rem;
 }
 .panel_line:before{
@@ -752,11 +768,14 @@ div.section_two_right{
     position: absolute;
     width: 42.5rem;
     border: 1px solid #e1e1e1;
-    top: 5.5rem;
+    top: 6.5rem;
     left: 0;
 }
 p.panel_mb.pr{
     padding-bottom: 0.7rem;
+}
+.panel_mt{
+    margin-top: 1.5rem;
 }
 input{
     opacity: 0;
