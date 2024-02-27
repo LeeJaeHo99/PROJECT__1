@@ -12,3 +12,12 @@ $('.menu_open').on('click', function () {
       $('html').removeClass('all_scrollFixed');
     });
   })
+
+  //시간
+function time(){
+  let day = new Date();
+  let now = day.toLocaleTimeString();
+  document.querySelector('#time').innerHTML = now;
+};
+
+setInterval(time, 1000);
