@@ -1055,16 +1055,13 @@ input:checked + label {
 	margin-top: 2rem;
 }
 .section_fiv_box_two img {
-	margin-top: 2.8rem;
-	margin-bottom: 0.6rem;
+	margin-top: 2.2rem;
 }
 .section_fiv_box_thr img {
-	margin-top: 2.8rem;
-	margin-bottom: 0.1rem;
+    margin-top: 2.2rem;
 }
 .section_fiv_box_for img {
-	margin-top: 2.8rem;
-	margin-bottom: 0.1rem;
+	margin-top: 2.2rem;
 }
 .section_fiv_box_text {
 	margin-top: 1.5rem;
