@@ -77,7 +77,7 @@
     /* ===== header ===== */
     /* ===== sec1 ===== */
     .section_one{
-        height: 34rem;
+        height: 53rem;
     }
     .section_one img{
         width: 80%;
@@ -89,6 +89,16 @@
     .section_one img:after{
         top: 36%;
         left: 5%;
+    }
+    .banner_wrap > ul{
+        width: 90%;
+    }
+    .banner_wrap > ul > li{
+        border-radius: 0;
+        background-size: contain;
+    }
+    .btnImg img{
+        display: none;
     }
     /* ===== sec1 ===== */
     /* ===== sec2 ===== */
@@ -467,7 +477,7 @@ font-size: 1.6rem;
     height: 15rem;
 }
 .section_fiv_box_img {
-    width: 70%;
+    width: 40%;
 }
 /* ===== sec5 ===== */
 /* ===== sec6 ===== */
@@ -610,7 +620,7 @@ font-size: 1.6rem;
     /* ===== header ===== */
     /* ===== sec1 ===== */
     .section_one {
-        height: 32.5rem;
+        height: 52.5rem;
     }
     .section_one_banner {
         box-shadow: 1.5rem 1.3rem 4rem 4px rgba(0, 0, 0, 26%);
@@ -906,9 +916,6 @@ font-size: 1.6rem;
 ==================================== */
 @media screen and (max-width:800px) {
     /* ===== sec1 ===== */
-    .section_one {
-        height: 30.5rem;
-    }
     /* ===== sec1 ===== */
     /* ===== sec2 ===== */
     .section_two_left {
@@ -1095,9 +1102,6 @@ font-size: 1.6rem;
     }
     /* ===== header ===== */
     /* ===== sec1 ===== */
-    .section_one {
-        height: 25.5rem;
-    }
     .section_one img {
         width: 75%;
     }
@@ -1426,6 +1430,18 @@ font-size: 1.6rem;
     ======= 500 ======    
 ==================================== */
 @media screen and (max-width:500px){
+    header {
+        height: 15rem;
+    }
+    #clock{
+        top: 9rem;
+    }
+    .pager {
+        bottom: 4%;
+    }
+    .section_one {
+        height: 57.5rem;
+    }
     .section_one::before {
         top: 34%;
         right: 6%;

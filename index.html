@@ -17,14 +17,20 @@
 		</div>
 		<div class="popup">
 			해당 사이트는 학습용으로 제작되었으며 경찰청과 무관합니다. 구직용 포트폴리오로 상업적 목적이 없음을 알립니다.
-			<span>닫기</span>
+			<span class="close">닫기</span>
 		</div>
 		<!-- popup -->
+		<div class="fixed_button">
+            <div class="topbutton df">
+                <img src="./img/icon/arrow_top_white.png" alt="">
+                <span>TOP</span>
+            </div> <!-- topbutton -->
+        </div> <!-- fixed_button -->
 		<div class="wrap">
 			<header>
 				<div class="inner df">
 					<div id="clock">
-						현재시간은 <span id="time"></span>입니다
+						현재시간은 <br><span id="time"></span>입니다
 					</div>
 					<div class="header_logo df">
 						<button class="menu_open"><img class="w900icon" src="./img/icon/menu_icon.png" alt="menu" /></button>
@@ -297,7 +303,22 @@
 			<main>
 				<section class="section_one pr">
 					<div class="inner df">
-						<img class="section_one_banner banner_one" src="./img/picture/f6f72733-0dc2-4c00-95c4-9dbf0c9f0e6f.jpg" alt="메인배너" />
+						<div class="banner_wrap">
+							<ul>
+								<li class="banner_1"><a href="#">배너이미지1</a></li>
+								<li class="banner_2"><a href="#">배너이미지2</a></li>
+								<li class="banner_3"><a href="#">배너이미지3</a></li>
+							</ul>
+						</div>
+						<div class="btnImg">
+							<img src="./img/icon/arrow_prev.png" alt="left">
+							<img src="./img/icon/arrow_next.png" alt="right">
+						</div>
+						<ul class="pager">
+							<li class="on"><a href="#">배너1</a></li>
+							<li><a href="#">배너2</a></li>
+							<li><a href="#">배너3</a></li>
+						</ul>
 					</div>
 				</section>
 				<!-- section_one -->
@@ -997,7 +1018,8 @@
 			</div>
 		</div>
 		<!-- sitemap -->
-		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
