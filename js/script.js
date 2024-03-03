@@ -26,7 +26,7 @@ setInterval(time, 1000);
 
 //팝업창 닫기
 $('.close').on('click', function(){
-  $('.popup').fadeOut1(800);
+  $('.popup').fadeOut(800);
 })
 
 //슬라이드 배너
