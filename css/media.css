@@ -88,7 +88,7 @@
     /* ===== header ===== */
     /* ===== sec1 ===== */
     .section_one{
-        height: 53rem;
+        height: 43rem;
     }
     .section_one img{
         width: 80%;
@@ -631,7 +631,7 @@ font-size: 1.6rem;
     /* ===== header ===== */
     /* ===== sec1 ===== */
     .section_one {
-        height: 52.5rem;
+        height: 38rem;
     }
     .section_one_banner {
         box-shadow: 1.5rem 1.3rem 4rem 4px rgba(0, 0, 0, 26%);
@@ -646,6 +646,9 @@ font-size: 1.6rem;
     .section_one::after {
         top: 38%;
         right: 7%;
+    }
+    .pager{
+        bottom: 1%;
     }
     /* ===== sec1 ===== */
     /* ===== sec2 ===== */
@@ -1054,6 +1057,9 @@ font-size: 1.6rem;
     ======= 764 ======    
 ==================================== */
 @media screen and (max-width:764px){
+    .section_one{
+        height: 33rem;
+    }
     div.section_two_right {
         width: 86%;
     }
@@ -1446,12 +1452,13 @@ font-size: 1.6rem;
     }
     #clock{
         top: 9rem;
+        display: block;
     }
     .pager {
         bottom: 4%;
     }
     .section_one {
-        height: 57.5rem;
+        height: 28rem;
     }
     .section_one::before {
         top: 34%;

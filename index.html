@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="ko">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>경찰청</title>
-		<link rel="shortcut icon" href="./img/icon/favicon.png" type="image/x-icon" />
-		<link rel="stylesheet" href="./css/reset.css" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="stylesheet" href="./css/media.css" />
+		<link rel="shortcut icon" href="./img/icon/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/media.css">
 	</head>
 	<body>
-		<div>
+		<div class="skip_menu_wrap">
 			<a href="#report" class="skip_menu">신고페이지로 이동</a>
 			<a href="#notice" class="skip_menu">공지사항으로 이동</a>
 			<a href="#portal" class="skip_menu">민원포탈로 이동</a>
@@ -22,7 +22,7 @@
 		<!-- popup -->
 		<div class="fixed_button">
             <div class="topbutton df">
-                <img src="./img/icon/arrow_top_white.png" alt="">
+                <img src="./img/icon/arrow_top_white.png" alt="topbutton">
                 <span>TOP</span>
             </div> <!-- topbutton -->
         </div> <!-- fixed_button -->
@@ -31,15 +31,15 @@
 				<div class="inner df">
 					<div id="clock">
 						현재시간은 <br><span id="time"></span>입니다
-					</div>
+					</div> <!-- clock -->
 					<div class="header_logo df">
-						<button class="menu_open"><img class="w900icon" src="./img/icon/menu_icon.png" alt="menu" /></button>
-						<img class="logo_img" src="./img/logo/logo_main.png" alt="로고" />
+						<button class="menu_open"><img class="w900icon" src="./img/icon/menu_icon.png" alt="menu"></button>
+						<a href="./index.html"><img class="logo_img" src="./img/logo/logo_main.png" alt="로고"></a>
 						<div class="logo_text">
 							<h1 class="logo_text_top"><a href="#">경찰청</a></h1>
 							<h1 class="logo_text_bottom"><a href="#">korean national police agency</a></h1>
 						</div>
-						<img class="w900icon" src="./img/icon/search_icon.png" alt="search" />
+						<img class="w900icon" src="./img/icon/search_icon.png" alt="search">
 					</div>
 					<ul class="nav df">
 						<li class="pr">
@@ -305,7 +305,7 @@
 					<div class="inner df">
 						<div class="banner_wrap">
 							<ul>
-								<li class="banner_1"><a href="#">배너이미지1</a></li>
+								<li class="banner_1"><a href="#"><h2>배너이미지1</h2></a></li>
 								<li class="banner_2"><a href="#">배너이미지2</a></li>
 								<li class="banner_3"><a href="#">배너이미지3</a></li>
 							</ul>
@@ -327,7 +327,7 @@
 						<div class="section_two_left df">
 							<div class="section_two_left_one">
 								<a href="#">
-									<img class="section_two_left_icon section_two_left_icon_one" src="./img/icon/sec1_Police.png" alt="신고 및 상담" />
+									<img class="section_two_left_icon section_two_left_icon_one" src="./img/icon/sec1_Police.png" alt="신고 및 상담">
 								</a>
 								<div class="section_two_left_text">
 									<a href="#">신고 및 상담</a>
@@ -335,7 +335,7 @@
 							</div>
 							<div class="section_two_left_two">
 								<a href="#">
-									<img class="section_two_left_icon section_two_left_icon_two" src="./img/icon/sec1_Police Badge.png" alt="상담 챗봇" />
+									<img class="section_two_left_icon section_two_left_icon_two" src="./img/icon/sec1_Police_Badge.png" alt="상담 챗봇">
 								</a>
 								<div class="section_two_left_text">
 									<a href="#">상담 챗봇</a>
@@ -343,7 +343,7 @@
 							</div>
 							<div class="section_two_left_thr portal">
 								<a href="#">
-									<img class="section_two_left_icon section_two_left_icon_thr" src="./img/icon/sec1_Website.png" alt="민원 포털" />
+									<img class="section_two_left_icon section_two_left_icon_thr" src="./img/icon/sec1_Website.png" alt="민원 포털">
 								</a>
 								<div class="section_two_left_text portal">
 									<a href="#" id="portal">민원 포털</a>
@@ -352,11 +352,11 @@
 						</div>
 						<div class="section_two_right">
 							<div class="section_two_right_top h1">
-								국민과 소통하는 <span class="red">따뜻하고</span> <br />
+								국민과 소통하는 <span class="red">따뜻하고</span> <br>
 								믿음직한 <span class="blue">경찰</span>로 함께 하겠습니다
 							</div>
 							<div class="section_two_right_bottom df">
-								<img class="section_two_right_bottom_img" src="./img/icon/main_tel.png" alt="민원 대표 전화" />
+								<img class="section_two_right_bottom_img" src="./img/icon/main_tel.png" alt="민원 대표 전화">
 								<div class="section_two_right_bottom_text">
 									<div class="section_two_right_bottom_text_top">민원 대표 전화</div>
 									<div class="section_two_right_bottom_text_bottom df">
@@ -374,7 +374,7 @@
 						<div class="section_thr_left">
 							<div class="section_thr_left_title pa"><span class="bold">열린</span>청장실</div>
 							<div class="section_thr_left_top">
-								국민 여러분의 생생한 의견을 듣고<br />
+								국민 여러분의 생생한 의견을 듣고<br>
 								이를 치안행정에 반영하겠습니다.
 							</div>
 							<div class="section_thr_left_bottom">
@@ -387,7 +387,7 @@
 							<div class="section_thr_right_title"><span class="bold">홍보</span>동영상</div>
 							<div class="section_thr_right_bottom">경찰청의 다양한 이야기를 전해 드립니다</div>
 							<div class="sns">
-								<img class="section_thr_right_sns" src="./img/icon/sns.png" alt="sns" />
+								<img class="section_thr_right_sns" src="./img/icon/sns.png" alt="sns">
 							</div>
 						</div>
 					</div>
@@ -398,7 +398,7 @@
 						<div class="section_eig_pannel">
 							<div class="section_eig_title">국민을 향한 <span class="bold">열린행정</span></div>
 							<article class="tabs">
-								<input type="radio" name="tabs" id="one" checked /><label for="one">채용공고</label> <input type="radio" name="tabs" id="two" /><label for="two">입찰공고</label> <input type="radio" name="tabs" id="three" /><label for="three">입법예고</label> <input type="radio" name="tabs" id="four" /><label for="four">행정예고</label>
+								<input type="radio" name="tabs" id="one" checked><label for="one">채용공고</label> <input type="radio" name="tabs" id="two"><label for="two">입찰공고</label> <input type="radio" name="tabs" id="three"><label for="three">입법예고</label> <input type="radio" name="tabs" id="four"><label for="four">행정예고</label>
 								<div class="panels">
 									<div class="panel">
 										<a href="#">· 2024년 경찰청 일반직공무원 경력경쟁채용시험 공고</a>
@@ -490,7 +490,7 @@
 						<div class="section_fiv_box df">
 							<div class="section_fiv_box_one section_fiv_box_set">
 								<a href="#">
-									<img class="section_fiv_box_img" src="./img/icon/sec5_Roadside Assistance.png" alt="교통민원 24" />
+									<img class="section_fiv_box_img" src="./img/icon/sec5_Roadside_Assistance.png" alt="교통민원 24">
 								</a>
 								<div class="section_fiv_box_text">
 									<a href="#">교통민원 24</a>
@@ -498,7 +498,7 @@
 							</div>
 							<div class="section_fiv_box_two section_fiv_box_set">
 								<a href="#">
-									<img class="section_fiv_box_img" src="./img/icon/sec5_Training.png" alt="승진 및 채용" />
+									<img class="section_fiv_box_img" src="./img/icon/sec5_Training.png" alt="승진 및 채용">
 								</a>
 								<div class="section_fiv_box_text">
 									<a href="#">승진 및 채용</a>
@@ -506,7 +506,7 @@
 							</div>
 							<div class="section_fiv_box_thr section_fiv_box_set">
 								<a href="#">
-									<img class="section_fiv_box_img" src="./img/icon/sec5_News.png" alt="보도자료" />
+									<img class="section_fiv_box_img" src="./img/icon/sec5_News.png" alt="보도자료">
 								</a>
 								<div class="section_fiv_box_text">
 									<a href="#">보도자료</a>
@@ -514,7 +514,7 @@
 							</div>
 							<div class="section_fiv_box_for section_fiv_box_set">
 								<a href="#">
-									<img class="section_fiv_box_img" src="./img/icon/sec5_Paste.png" alt="자유게시판" />
+									<img class="section_fiv_box_img" src="./img/icon/sec5_Paste.png" alt="자유게시판">
 								</a>
 								<div class="section_fiv_box_text">
 									<a href="#">자유게시판</a>
@@ -530,7 +530,7 @@
 							<h4 class="section_six_box_one_title pr">거버넌스 소식</h4>
 							<h6 class="section_six_box_one_subtitle pr">
 								<a href="#"
-									>스마트치안 빅데이터 플랫폼<br />
+									>스마트치안 빅데이터 플랫폼<br>
 									참여 기관 소개(에스투더블유)</a
 								>
 							</h6>
@@ -541,7 +541,7 @@
 						<div class="section_six_box_two">
 							<h4 class="section_six_box_two_title pr">스마트치안 24시</h4>
 							<h6 class="section_six_box_two_subtitle pr">
-								<a href="#">"이 번호, 국제전화입니다"…<br />보이스피싱 '번호 둔갑'…</a>
+								<a href="#">"이 번호, 국제전화입니다"…<br>보이스피싱 '번호 둔갑'…</a>
 							</h6>
 							<div class="section_six_box_two_text">
 								<a href="#">정부가 보이스피싱 범죄에 빈번하게 악용되는 국제전화에 대한 경각심을 높이기 위해 내년 상반기부터 국제전화가 걸려올 경우 "국제전화입니다"라는 음성 안내 방안을 마련하기로 했다. 또 '불법 번호변작 중계기(SIM Box)'를 네트워크 기반으로 즉시 차단하는 등 보이스피싱 범죄 조직이 낯선 국제전화…</a>
@@ -605,7 +605,7 @@
 							<div class="section_sev_box_one">
 								<h3 class="section_sev_box_title section_sev_img_one pr">순직 경찰관 추모</h3>
 								<div class="section_sev_box_text">
-									당신을 영원히 기억하겠습니다.<br />
+									당신을 영원히 기억하겠습니다.<br>
 									우리는 그들을 잊지 못합니다.
 								</div>
 								<div class="section_sev_box_detail detail_one pr">
@@ -615,17 +615,17 @@
 							<div class="section_sev_box_two">
 								<h3 class="section_sev_box_title section_sev_img_two pr">민주·인권·민생경찰의 뿌리</h3>
 								<div class="section_sev_box_text">
-									당신을 영원히 기억하겠습니다.<br />
+									당신을 영원히 기억하겠습니다.<br>
 									우리는 그들을 잊지 못합니다.
 								</div>
 								<div class="section_sev_box_detail detail_two pr">
-									<a href="">자세히보기</a>
+									<a href="#">자세히보기</a>
 								</div>
 							</div>
 							<div class="section_sev_box_thr">
 								<h3 class="section_sev_box_title section_sev_img_thr pr">자치경찰제</h3>
 								<div class="section_sev_box_text">
-									지역 주민과 함께<br />
+									지역 주민과 함께<br>
 									우리 동네를 더 안전하게
 								</div>
 								<div class="section_sev_box_detail detail_thr pr">
@@ -710,14 +710,14 @@
 					</div>
 					<!-- footer_link -->
 					<div class="footer_address df">
-						<div class="footer_address_one pr">(우)03739 서울특별시 서대문구 통일로 97</div>
-						<div class="footer_address_two pr">민원대표전화 182(유료)</div>
+						<div class="footer_address_one pr">(우)00000 서울특별시 000구 00로 00</div>
+						<div class="footer_address_two pr">민원대표전화 ***(유료)</div>
 						<div class="footer_address_thr">
 							<a href="#" class="pr">찾아오시는길</a>
 						</div>
 					</div>
 					<!-- footer_address -->
-					<div class="footer_copyright">© 2018. KOREAN NATIONAL POLICE AGENCY</div>
+					<div class="footer_copyright">© 201*. KOREAN NATIONAL POLICE AGENCY</div>
 					<div class="footer_caution">본 홈페이지에 게시판 이메일 주소가 자동 수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</div>
 				</div>
 			</footer>
