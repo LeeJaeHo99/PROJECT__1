@@ -82,7 +82,6 @@ a{
     font-family: 'Noto Sans KR', sans-serif;
 }
 a:focus {
-    background: #5a6cd4;
     color: #fff;
 }
 body{
