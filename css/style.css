@@ -1108,7 +1108,6 @@ input:checked + label {
 	background: rgba(255, 255, 255, 0.25);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 	backdrop-filter: blur(4px);
-	/* -webkit-backdrop-filter: blur(4px); */
 	border-radius: 3rem;
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	transition: all 0.5s;
