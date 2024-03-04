@@ -146,3 +146,7 @@ body{
 .b1sl{
     border-left: 1.5px solid#b4b4b4;
 }
+
+.indent{
+    text-indent: -99999999999999999999999px;
+}

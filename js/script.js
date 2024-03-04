@@ -53,6 +53,7 @@ function slideFn(){
     let nextPage = pager.eq(current);
     move(next, '100%', '0%');
     nextPage.addClass('on');
+    cnt(current);
 }
 
 function move(tg, start, end){
@@ -68,6 +69,14 @@ $('.banner_wrap').on({
     },
 })
 
+//카운터 함수
+let counterEl = `<div class="counter">${current + 1}/${visual.length}`;
+$('#slide_wrap').append(counterEl);
+let counter = $('.counter');
+
+function cnt(num){
+    counter.html(`${num + 1}/${visual.length}`)
+}
 //컨트롤 버튼 클릭
     const prev = $('.btnImg > img[alt = left');
     const next = $('.btnImg > img[alt = right');
@@ -85,6 +94,7 @@ $('.banner_wrap').on({
         let nextPage = pager.eq(current);
         move(next, '100%', '0%');
         nextPage.addClass('on');
+        cnt(current);
     })
 
   //prev
@@ -101,6 +111,7 @@ $('.banner_wrap').on({
         let nextPage = pager.eq(current);
         move(next, '-100%', '0%');
         nextPage.addClass('on');
+        cnt(current);
     })
 
       //페이저 버튼
@@ -113,12 +124,21 @@ $('.banner_wrap').on({
     function pagerMove(i){
         let currentEl = banner.eq(current); //0
         let nextEl = banner.eq(i); //클릭한 pager index
-        currentEl.css('left', 0).stop().animate({
-            'left' : '-100%',
-        }, 500);
-        nextEl.css('left', '100%').stop().animate({
-            'left' : 0,
-        }, 500);
+        if(current < i){
+            currentEl.css('left', 0).stop().animate({
+                'left' : '-100%',
+            }, 500);
+            nextEl.css('left', '100%').stop().animate({
+                'left' : 0,
+            }, 500);
+        }else if(current > i){
+            currentEl.css('left', 0).stop().animate({
+                'left' : '100%',
+            }, 1000, 'easeOutCubic');
+            nextEl.css('left', '-100%').stop().animate({
+                'left' : 0,
+            }, 1000, 'easeOutCubic');
+        }
         current = i;
     }
 
