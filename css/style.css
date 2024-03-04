@@ -234,6 +234,10 @@ a.skip_menu:focus {
 	color: white;
 	cursor: pointer;
 }
+.close_btn img{
+	width: 2rem;
+	cursor: pointer;
+}
 /* ====================================
     ======= sitemap ======
 ==================================== */
