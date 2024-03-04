@@ -359,7 +359,9 @@ ul.nav > li > a:hover,
 	color: #004fa8;
 	text-decoration: underline;
 }
-
+.menu_open{
+	cursor: pointer;
+}
 /* .dep1{
     display: none;
 } */
