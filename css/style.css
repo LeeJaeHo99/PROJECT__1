@@ -839,8 +839,6 @@ div.section_two_right {
 	color: var(--text4);
 	font-size: 2.8rem;
 	margin-bottom: 5rem;
-	opacity: 0;
-	transition: .5s;
 }
 .panels {
 	background-color: var(--bg);
