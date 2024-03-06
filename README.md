@@ -27,29 +27,41 @@
 
 
 ## 기술스텍
-- 디자인 
-  - photoshopcc2021
-  - illustratorcc2021
-  - figma
 - 코딩
   - html5
   - css3
   - es6 
+- 디자인 
+  - photoshopcc2021
+  - illustratorcc2021
+  - figma
 
 
 ## 폴더 구조
 
 폴더는 아래와 같은 구조로 제작되었습니다.
 
-```text
 root/
-└── img/
-    ├── pc/
-    │   ├── logo.png
-    │   └── icon.png
-    └── folder4/
-        ├── file3
-        └── file4
+└── index.html
+└── css
+│    ├── style.css
+│    ├── login.css
+│    ├── reset.css
+│    ├── media.css
+│    └── fonts.css
+│
+└── js
+│    ├── script.js
+│    └── login.js
+│
+└── img
+    ├── banner
+    ├── bg
+    ├── icon
+    ├── logo
+    ├── picture
+    └── sns
+    
 ```
 
 ## 아웃라인
@@ -57,10 +69,23 @@ root/
 body
   └── div.wrap
         └── header
-        │    └──
+        │    ├── logo
+        │    └── nav
         └── main
+        │    ├── section1
+        │    ├── section2
+        │    ├── section3
+        │    ├── section4
+        │    ├── section5
+        │    ├── section6
+        │    ├── section7
+        │    └── section8
         └──footer
-
+             ├── footer_box
+             ├── footer_link
+             ├── footer_address
+             ├── footer_copyright
+             └── footer_caution
 
 
 
