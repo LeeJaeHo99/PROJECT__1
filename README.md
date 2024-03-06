@@ -42,50 +42,50 @@
 폴더는 아래와 같은 구조로 제작되었습니다.
 
 root/
-└── index.html
-└── css
-│    ├── style.css
-│    ├── login.css
-│    ├── reset.css
-│    ├── media.css
-│    └── fonts.css
+└── index.html/
+└── css/
+│    ├── style.css/
+│    ├── login.css/
+│    ├── reset.css/
+│    ├── media.css/
+│    └── fonts.css/
 │
-└── js
-│    ├── script.js
-│    └── login.js
+└── js/
+│    ├── script.js/
+│    └── login.js/
 │
-└── img
-    ├── banner
-    ├── bg
-    ├── icon
-    ├── logo
-    ├── picture
-    └── sns
+└── img/
+    ├── banner/
+    ├── bg/
+    ├── icon/
+    ├── logo/
+    ├── picture/
+    └── sns/
     
 ```
 
 ## 아웃라인
 ```
-body
-  └── div.wrap
-        └── header
-        │    ├── logo
-        │    └── nav
-        └── main
-        │    ├── section1
-        │    ├── section2
-        │    ├── section3
-        │    ├── section4
-        │    ├── section5
-        │    ├── section6
-        │    ├── section7
-        │    └── section8
-        └──footer
-             ├── footer_box
-             ├── footer_link
-             ├── footer_address
-             ├── footer_copyright
-             └── footer_caution
+body/
+  └── div.wrap/
+        └── header/
+        │    ├── logo/
+        │    └── nav/
+        └── main/
+        │    ├── section1/
+        │    ├── section2/
+        │    ├── section3/
+        │    ├── section4/
+        │    ├── section5/
+        │    ├── section6/
+        │    ├── section7/
+        │    └── section8/
+        └──footer/
+             ├── footer_box/
+             ├── footer_link/
+             ├── footer_address/
+             ├── footer_copyright/
+             └── footer_caution/
 
 
 
