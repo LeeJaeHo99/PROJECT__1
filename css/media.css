@@ -2,7 +2,7 @@
     ======= 1500 ======    
 ==================================== */
 @media screen and (max-width:1500px) {
-    #clock{
+    .header_top{
         display: none;
     }
 }
@@ -1450,10 +1450,7 @@ font-size: 1.6rem;
     header {
         height: 15rem;
     }
-    #clock{
-        top: 9rem;
-        display: block;
-    }
+
     .pager {
         bottom: 4%;
     }
@@ -1558,7 +1555,7 @@ font-size: 1.6rem;
     top: -3.5rem;
 }
     footer{
-        height: 44rem;
+        height: 55rem;
     }
     .footer_address {
         margin-top: 0;

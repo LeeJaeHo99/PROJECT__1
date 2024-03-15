@@ -90,14 +90,6 @@ a.skip_menu {
 a.skip_menu:focus {
 	transform: translateX(-50%) translateY(0);
 }
-#clock{
-    position: absolute;
-    top: 2rem;
-    left: 5rem;
-    color: var(--primary1);
-    font-size: 1.8rem;
-    font-weight: 600;
-}
 /* ====================================
     ======= sitemap ======
 ==================================== */
@@ -134,8 +126,6 @@ a.skip_menu:focus {
 	opacity: 0.3;
 	width: 15%;
 	height: 30%;
-	/* top: 43rem;
-    left: 107rem; */
 	top: 4%;
 	right: 0%;
 }
@@ -238,8 +228,69 @@ a.skip_menu:focus {
 	width: 2rem;
 	cursor: pointer;
 }
+/* ===== spotmenu ===== */
+.spotmenu{
+	width: 10rem;
+}
+/* ===== spotmenu ===== */
 /* ====================================
     ======= sitemap ======
+==================================== */
+
+/* ====================================
+	======= header_top ======    
+==================================== */
+.header_top{
+	width: 100%;
+	height: 5rem;
+	border-bottom: 1px dotted #a0a0a0;
+}
+.header_top .inner{
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nuri{
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.nuri_text{
+	margin-left: 1rem;
+	font-size: 1.3rem;
+}
+.header_top_cnt{
+	width: 60%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#clock{
+	width: 60%;
+    line-height: 5rem;
+    color: var(--primary1);
+    font-size: 1.8rem;
+    font-weight: 600;
+	text-align: right;
+}
+.spotmenu{
+	width: 20%;
+	justify-content: flex-end;
+}
+.spotmenu a{
+	font-size: 1.4rem;
+	transition-timing-function: 0.3s;
+}
+.spotmenu a:first-child{
+	margin-right: 1.5rem;
+}
+.spotmenu a:hover{
+	color: var(--primary1);
+}
+/* ====================================
+	======= header_top ======    
 ==================================== */
 
 /* ====================================
@@ -252,7 +303,7 @@ a.skip_menu:focus {
 
 header {
 	width: 100%;
-	height: 13rem;
+	height: 18rem;
 	opacity: 1;
 	background-size: 4px 4px;
 	background-image: var(--pat_bg);
@@ -343,7 +394,6 @@ ul.dep1.w165 {
 	display: block;
 }
 .dep1 > li a {
-	/* background-color: blue; */
 	display: block;
 	font-size: 1.4rem;
 	line-height: 1.2;
@@ -355,7 +405,6 @@ ul.dep1.w165 {
 	font-weight: 500;
 	padding: 4%;
 	margin: 2%;
-	/* background-color: lightgreen; */
 }
 ul.nav > li > a:hover,
 .search_icon:hover,
@@ -374,9 +423,6 @@ ul.nav > li > a:hover,
 .menu_open{
 	cursor: pointer;
 }
-/* .dep1{
-    display: none;
-} */
 /* ===== header_nav===== */
 /* ====================================
     ======= header ======
@@ -432,17 +478,17 @@ main {
 }
 .banner_wrap .banner_1{
 	left: 0;
-	background: url(../img/banner/banner1.jpg) 0 0 no-repeat;
+	background: url(../img/banner/banner1.webP) 0 0 no-repeat;
 	background-size: 100%;
 }
 .banner_wrap .banner_2{
 	left: 100%;
-	background: url(../img/banner/banner2.jpg) 0 0 no-repeat;
+	background: url(../img/banner/banner2.webp) 0 0 no-repeat;
 	background-size: 100%;
 }
 .banner_wrap .banner_3{
 	left: 200%;
-	background: url(../img/banner/banner3.jpg) 0 0 no-repeat;
+	background: url(../img/banner/banner3.webp) 0 0 no-repeat;
 	background-size: 100%;
 }
 .btnImg img{
@@ -838,7 +884,8 @@ div.section_two_right {
 	font-weight: 600;
 	color: var(--text4);
 	font-size: 2.8rem;
-	margin-bottom: 5rem;
+	margin-bottom: 1.3rem;
+    margin-top: 4rem;
 }
 .panels {
 	background-color: var(--bg);
@@ -1049,7 +1096,7 @@ input:checked + label {
 	right: 28%;
 }
 .section_for_one {
-	background: url(../img/picture/medicine.jpg) no-repeat center center/cover;
+	background: url(../img/picture/medicine.webP) no-repeat center center/cover;
 	text-align: center;
 }
 .section_for_one > a {
@@ -1057,7 +1104,7 @@ input:checked + label {
 	color: white;
 }
 .section_for_two {
-	background: url(../img/picture/achol.jpg) no-repeat center center/cover;
+	background: url(../img/picture/achol.webp) no-repeat center center/cover;
 	text-align: center;
 }
 .section_for_two > a {
@@ -1065,7 +1112,7 @@ input:checked + label {
 	color: white;
 }
 .section_for_thr {
-	background: url(../img/picture/children.jpg) no-repeat center center/cover;
+	background: url(../img/picture/children.WebP) no-repeat center center/cover;
 	text-align: center;
 }
 .section_for_thr > a {
@@ -1073,7 +1120,7 @@ input:checked + label {
 	color: white;
 }
 .section_for_for {
-	background: url(../img/picture/understand.jpg) no-repeat center center/cover;
+	background: url(../img/picture/understand.webp) no-repeat center center/cover;
 	text-align: center;
 }
 .section_for_for > a {
@@ -1170,7 +1217,6 @@ input:checked + label {
 .section_six > .inner {
 	justify-content: space-evenly;
 	column-gap: 2rem;
-	/* flex: 1 1 33%; */
 }
 /* ===== section_six layout ===== */
 .section_six_box_one,
@@ -1525,7 +1571,6 @@ footer {
 }
 .footer_box.df {
 	justify-content: center;
-	/* width: 100%; */
 }
 .footer_box_one,
 .footer_box_two,
