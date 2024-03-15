@@ -2,13 +2,12 @@
 ### [기획서 보기](./project1.pdf)
 > 경찰청 홈페이지를 **리디자인 후 구현한** 프로젝트 입니다.
 > 
-> 배포화면 보기 [_사이트 보기_](https://leejaeho1234.github.io/PROJECT__1/). 
+> 배포화면 보기 [_사이트 보기_](https://leejaeho0104.github.io/PROJECT__1/). 
 > 
 ## 목차 <!-- omit in toc -->
 - [프로젝트 제작동기](#프로젝트-제작동기)
 - [기술스텍](#기술스텍)
 - [폴더 구조](#폴더-구조)
-- [아웃라인](#아웃라인)
 - [특징](#특징)
   - [주요구현사항](#주요구현사항)
 - [스크린샷](#스크린샷)
@@ -31,6 +30,7 @@
   - html5
   - css3
   - es6 
+  - jquery
 - 디자인 
   - photoshopcc2021
   - illustratorcc2021
@@ -41,8 +41,10 @@
 
 폴더는 아래와 같은 구조로 제작되었습니다.
 
-root/
+root
+
 └── index.html/
+
 └── css/
 │    ├── style.css/
 │    ├── login.css/
