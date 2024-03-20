@@ -1,11 +1,4 @@
-// const pop = document.querySelector('.popup');
-// const btn = document.querySelector('.popup>span');
-// btn.onclick = function(){
-//     pop.style.display = 'none';
-// };
-
-const pager = $('.pager li')
-
+//사이트맵
 $('.menu_open').on('click', function () {
     $('html').addClass('all_scrollFixed');
     $('#sitemap').show();
@@ -15,7 +8,15 @@ $('.menu_open').on('click', function () {
     });
   })
 
-  //시간
+//날씨api
+$.getJSON('http://api.openweathermap.org/data/2.5/weather?id=1835848&appid=78e9ebd4228ee28d89014f0e8042ed0e&units=metric', function(data){
+            let tempNow = data.main.temp;
+            $('.tempNow').append(tempNow + '℃');
+            let wIcon = data.weather[0].icon;
+            $('.wIcon').append('<img src="http://openweathermap.org/img/w/' + wIcon + '.png">');
+        });
+
+//시간
 function time(){
   let day = new Date();
   let now = day.toLocaleTimeString();
@@ -104,6 +105,7 @@ $('.banner_wrap').on({
   })
 
       //페이저 버튼
+      const pager = $('.pager li');
       pager.on('click', function(){
         const i = $(this).index();
         pager.removeClass('on');
@@ -146,4 +148,3 @@ $('.topbutton').on('click', function(){
       'behavior' : 'smooth',
   })
 });
-
