@@ -252,7 +252,7 @@ a.skip_menu:focus {
 	align-items: center;
 }
 .nuri{
-	width: 40%;
+	width: 30%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -262,7 +262,7 @@ a.skip_menu:focus {
 	font-size: 1.3rem;
 }
 .header_top_cnt{
-	width: 60%;
+	width: 70%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
