@@ -276,13 +276,13 @@ a.skip_menu:focus {
 .tempNow{
 	margin-right: 2.5rem;
 }
-.tempMax, .tempMin{
+.tempMax, .tempMin, .feelsLike{
 	font-size: 1.3rem;
 }
-.tempMax span, .tempMin span{
+.tempMax span, .tempMin span, .feelsLike span{
 	font-weight: 600;
 }
-.tempMax{
+.tempMax, .tempMin{
 	margin-right: 1rem;
 }
 .wIcon img{

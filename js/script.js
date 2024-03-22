@@ -9,16 +9,35 @@ $('.menu_open').on('click', function () {
   })
 
 //날씨api
-$.getJSON('http://api.openweathermap.org/data/2.5/weather?id=1835848&appid=78e9ebd4228ee28d89014f0e8042ed0e&units=metric', function(data){
-            let tempNow = data.main.temp;
-            $('.tempNow').append(tempNow + '℃');
-            let tempMax = data.main.temp_max;
-            $('.tempMax').append(tempMax + '℃');
-            let tempMin = data.main.temp_min;
-            $('.tempMin').append(tempMin + '℃');
-            let wIcon = data.weather[0].icon;
-            $('.wIcon').append('<img src="http://openweathermap.org/img/w/' + wIcon + '.png">');
-        });
+async function weather() {
+  try {
+      const response = await fetch('http://api.openweathermap.org/data/2.5/weather?id=1835848&appid=78e9ebd4228ee28d89014f0e8042ed0e&units=metric');
+      if (!response.ok) {
+          throw new Error('네트워크 응답이 올바르지 않습니다.');
+      }
+      const data = await response.json();
+
+      const tempNow = data.main.temp;
+      document.querySelector('.tempNow').innerHTML += tempNow + '℃';
+
+      const tempMax = data.main.temp_max;
+      document.querySelector('.tempMax').innerHTML += tempMax + '℃';
+
+      const tempMin = data.main.temp_min;
+      document.querySelector('.tempMin').innerHTML += tempMin + '℃';
+
+      const feelsLike = data.main.feels_like;
+      document.querySelector('.feelsLike').innerHTML += feelsLike + '℃';
+
+      const wIcon = data.weather[0].icon;
+      document.querySelector('.wIcon').innerHTML += '<img src="http://openweathermap.org/img/w/' + wIcon + '.png">';
+  } catch (error) { 
+      console.error('날씨 정보를 가져오는 중 에러가 발생했습니다:', error); 
+  } 
+}
+weather();
+
+
 
 //시간
 function time(){
