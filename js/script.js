@@ -12,6 +12,10 @@ $('.menu_open').on('click', function () {
 $.getJSON('http://api.openweathermap.org/data/2.5/weather?id=1835848&appid=78e9ebd4228ee28d89014f0e8042ed0e&units=metric', function(data){
             let tempNow = data.main.temp;
             $('.tempNow').append(tempNow + '℃');
+            let tempMax = data.main.temp_max;
+            $('.tempMax').append(tempMax + '℃');
+            let tempMin = data.main.temp_min;
+            $('.tempMin').append(tempMin + '℃');
             let wIcon = data.weather[0].icon;
             $('.wIcon').append('<img src="http://openweathermap.org/img/w/' + wIcon + '.png">');
         });

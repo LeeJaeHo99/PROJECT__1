@@ -268,10 +268,22 @@ a.skip_menu:focus {
 	align-items: center;
 }
 .weather{
-	width: 40%;
+	width: 50%;
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 3rem;
+}
+.tempNow{
+	margin-right: 2.5rem;
+}
+.tempMax, .tempMin{
+	font-size: 1.3rem;
+}
+.tempMax span, .tempMin span{
+	font-weight: 600;
+}
+.tempMax{
+	margin-right: 1rem;
 }
 .wIcon img{
 	width: 5rem;
