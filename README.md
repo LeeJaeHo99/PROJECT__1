@@ -111,7 +111,8 @@ body/
 
 
 ## 스크린샷
-(./img/capture/main.png)
+![main](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/068392f0-d555-4c26-81b3-4a6e771c09c2)
+
 
 
 
