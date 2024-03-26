@@ -5,24 +5,22 @@
 > 배포화면 보기 [_사이트 보기_](https://leejaeho0104.github.io/PROJECT__1/). 
 > 
 ## 목차 <!-- omit in toc -->
-- [프로젝트 제작동기](#프로젝트-제작동기)
+- [프로젝트 내용](#프로젝트-내용)
 - [기술스텍](#기술스텍)
 - [폴더 구조](#폴더-구조)
 - [특징](#특징)
   - [주요구현사항](#주요구현사항)
 - [스크린샷](#스크린샷)
-- [Project Status](#project-status)
-- [Room for Improvement](#room-for-improvement)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 <!-- * [License](#license) -->
 
 
-## 프로젝트 제작동기
-- 디자인부터 코딩까지 100% 혼자 작업한 프로젝트 입니다.
+## 프로젝트 내용
+- 경찰청 홈페이지를 리디자인하여 제작한 웹사이트입니다.
+- 디자인부터 코딩까지 100% 스스로 작업한 프로젝트 입니다.
 - 디자인은 그리드 시스템을 사용하였습니다.
-- html5, css3, 바닐라 자바스크립트를 사용해 구현한 웹사이트입니다.
-- 반응형 페이지로 구현하였습니다.
+- html5, css3, 자바스크립트, jquery를 사용해 구현한 웹사이트입니다.
+- PC, Tablet, Mobile 화면을 미디어 쿼리를 이용해 반응형 페이지로 구현하였습니다.
 
 
 ## 기술스텍
@@ -106,45 +104,20 @@ body/
 
 
 ### 주요구현사항
-- 예) 화면 100% 너비를 채우는 드롭다운 gnb 메뉴
-- 예) 메인 비주얼 슬라이드 직접 구현 (no plugin)
-- Awesome feature 3
+- 날씨 API를 활용한 실시간 날씨 정보 표현
+- JQuery를 이용한 메인 배너 슬라이드 구현
+- new Date 함수와 setInterval 함수를 이용해 현재 시간 1초 단위로 구현
+- 바닐라 자바스크립트만으로 window.scrollY 값에 따른 스크롤 애니메이션 구현
 
 
 ## 스크린샷
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+(./img/capture/main.png)
 
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
 
 ## Contact
-Created by [@이재호](ljh2735294@naver.com) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- 이름 : 이재호
+- 연락처 : 010-5351-5294
+- 이메일 : ljh2735294@naver.com
