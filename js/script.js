@@ -136,8 +136,8 @@ $('.banner_wrap').on({
         pagerMove(i);
     });
     function pagerMove(i){
-        let currentEl = banner.eq(current); //0
-        let nextEl = banner.eq(i); //클릭한 pager index
+        let currentEl = banner.eq(current);
+        let nextEl = banner.eq(i);
         currentEl.css('left', 0).stop().animate({
             'left' : '-100%',
         }, 500);

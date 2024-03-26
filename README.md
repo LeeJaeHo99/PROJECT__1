@@ -1,123 +1,175 @@
-# 경찰청 <!-- omit in toc -->
+# 경찰청🚓
 ### [기획서 보기](./project1.pdf)
 > 경찰청 홈페이지를 **리디자인 후 구현한** 프로젝트 입니다.
 > 
 > 배포화면 보기 [_사이트 보기_](https://leejaeho0104.github.io/PROJECT__1/). 
 > 
 ## 목차 <!-- omit in toc -->
-- [프로젝트 내용](#프로젝트-내용)
-- [기술스텍](#기술스텍)
-- [폴더 구조](#폴더-구조)
-- [특징](#특징)
+- [경찰청🚓](#경찰청)
+    - [기획서 보기](#기획서-보기)
+- [프로젝트 소개](#프로젝트-소개)
+  - [기술스텍](#기술스텍)
+  - [디자인 프로그램](#디자인-프로그램)
   - [주요구현사항](#주요구현사항)
-- [스크린샷](#스크린샷)
-- [Contact](#contact)
+  - [해당 프로젝트를 통해 배운점](#해당-프로젝트를-통해-배운점)
+  - [폴더 구조](#폴더-구조)
+  - [아웃라인](#아웃라인)
+  - [브라우저 호환성](#브라우저-호환성)
+  - [스크린샷](#스크린샷)
+  - [Contact](#contact)
 <!-- * [License](#license) -->
 
 
-## 프로젝트 내용
+# 프로젝트 소개
 - 경찰청 홈페이지를 리디자인하여 제작한 웹사이트입니다.
 - 디자인부터 코딩까지 100% 스스로 작업한 프로젝트 입니다.
-- 디자인은 그리드 시스템을 사용하였습니다.
 - html5, css3, 자바스크립트, jquery를 사용해 구현한 웹사이트입니다.
-- PC, Tablet, Mobile 화면을 미디어 쿼리를 이용해 반응형 페이지로 구현하였습니다.
+- PC, Tablet, Mobile 화면을 미디어 쿼리를 이용해 **반응형 페이지**로 구현하였습니다.
 
 
 ## 기술스텍
-- 코딩
-  - html5
-  - css3
-  - es6 
-  - jquery
-- 디자인 
-  - photoshopcc2021
-  - illustratorcc2021
-  - figma
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/JQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 
+
+## 디자인 프로그램
+<img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white">
+<img src="https://img.shields.io/badge/illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+
+## 주요구현사항
+- **날씨 API**를 활용한 실시간 날씨 정보 표현
+- JQuery를 이용한 메인 **배너 슬라이드** 구현
+- **new Date** 함수와 **setInterval** 함수를 이용해 현재 시간 1초 단위로 구현
+- 바닐라 자바스크립트만으로 **window.scrollY** 값에 따른 **스크롤 애니메이션** 구현
+
+
+## 해당 프로젝트를 통해 배운점
+
+```javascript
+1. 오픈 API를 활용한 데이터 통신 학습
+- fetch와 async, await를 사용하여 실제 오픈 API를 호출하고, 응답 데이터를 처리하는 코드를 구현했습니다.
+- 이 과정에서 비동기 처리의 사용 이유, 중요성과 데이터를 활용하는 방법을 배웠습니다. 
+
+//프로젝트 내 구현한 코드입니다.
+async function weather() {
+  try {
+      const response = await fetch('http://api.openweathermap.org/data/2.5/weather?id=1835848&appid=78e9ebd4228ee28d89014f0e8042ed0e&units=metric');
+      if (!response.ok) {
+          throw new Error('네트워크 응답이 올바르지 않습니다.');
+      }
+      const data = await response.json();
+
+      const tempNow = data.main.temp;
+      document.querySelector('.tempNow').innerHTML += tempNow + '℃';
+
+      const tempMax = data.main.temp_max;
+      document.querySelector('.tempMax').innerHTML += tempMax + '℃';
+
+      const tempMin = data.main.temp_min;
+      document.querySelector('.tempMin').innerHTML += tempMin + '℃';
+
+      const feelsLike = data.main.feels_like;
+      document.querySelector('.feelsLike').innerHTML += feelsLike + '℃';
+
+      const wIcon = data.weather[0].icon;
+      document.querySelector('.wIcon').innerHTML += '<img src="http://openweathermap.org/img/w/' + wIcon + '.png">';
+  } catch (error) { 
+      console.error('날씨 정보를 가져오는 중 에러가 발생했습니다:', error); 
+  } 
+}
+weather();
+```
+
+
+```javascript
+2. 현재 시간 나타내기
+- new Date를 이용해 현재 시간을 받아오고, innerHTML을 이용해 미리 만들어둔 태그에 넣는 코드를 구현했습니다.
+- 이 과정을 통하여 실시간으로 데이터를 업데이트하는 방법을 배우게 됐습니다.
+
+//프로젝트 내 구현한 코드입니다.
+function time(){
+  let day = new Date();
+  let now = day.toLocaleTimeString();
+  document.querySelector('#time').innerHTML = now;
+};
+
+setInterval(time, 1000);
+```
 
 ## 폴더 구조
 
 폴더는 아래와 같은 구조로 제작되었습니다.
-
+```
 root
-
-└── index.html/
-
-└── css/
-│    ├── style.css/
-│    ├── login.css/
-│    ├── reset.css/
-│    ├── media.css/
-│    └── fonts.css/
+└── index.html
+└── css
+│    ├── style.css
+│    ├── login.css
+│    ├── reset.css
+│    ├── media.css
+│    └── fonts.css
 │
-└── js/
-│    ├── script.js/
-│    └── login.js/
+└── js
+│    ├── script.js
+│    └── login.js
 │
-└── img/
-    ├── banner/
-    ├── bg/
-    ├── icon/
-    ├── logo/
-    ├── picture/
-    └── sns/
-    
+└── img
+    ├── banner
+    ├── bg
+    ├── icon
+    ├── logo
+    ├── picture
+    └── sns
 ```
 
 ## 아웃라인
+index html파일은 아래와 같은 구조로 제작되었습니다.
 ```
-body/
-  └── div.wrap/
-        └── header/
-        │    ├── logo/
-        │    └── nav/
+body
+  └── .wrap
+        └── header
+        │    ├── logo
+        │    └── nav
         └── main/
-        │    ├── section1/
-        │    ├── section2/
-        │    ├── section3/
-        │    ├── section4/
-        │    ├── section5/
-        │    ├── section6/
-        │    ├── section7/
-        │    └── section8/
-        └──footer/
-             ├── footer_box/
-             ├── footer_link/
-             ├── footer_address/
-             ├── footer_copyright/
-             └── footer_caution/
-
-
-
+        │    ├── section1
+        │    ├── section2
+        │    ├── section3
+        │    ├── section4
+        │    ├── section5
+        │    ├── section6
+        │    ├── section7
+        │    └── section8
+        └──footer
+             ├── footer_box
+             ├── footer_link
+             ├── footer_address
+             ├── footer_copyright
+             └── footer_caution
 ```
 
-
-## 특징
-|브라우저|엣지|![Alt text](https://cdn-icons-png.flaticon.com/16/2374/2374373.png)|
-|---|---|---|
-|호환성 여부|O|
+## 브라우저 호환성
+|브라우저|![chrome_icon](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/3e912b12-1d18-4635-8f9c-9abba81cfb80)|![edge_icon](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/f494434e-b0bd-447f-a3b1-6e7fc9e41d17)|![firefox_icon](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/6da83ea9-6744-422a-8929-a771dd20d94a)|![opera_icon](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/1fa4b9c9-9aa6-467f-bbc6-1fc46959c053)
+|---|---|---|---|---|
+|호환성 여부|O|O|O|O|
 
 <!-- 반응형 -->
-|데스크탑|엣지|![Alt text](https://cdn-icons-png.flaticon.com/16/2374/2374373.png)|
-|---|---|---|
-|컨테이너 너비|O|
-
-
-### 주요구현사항
-- 날씨 API를 활용한 실시간 날씨 정보 표현
-- JQuery를 이용한 메인 배너 슬라이드 구현
-- new Date 함수와 setInterval 함수를 이용해 현재 시간 1초 단위로 구현
-- 바닐라 자바스크립트만으로 window.scrollY 값에 따른 스크롤 애니메이션 구현
+|디바이스 종류|PC|Tablet|Mobile|
+|---|---|---|---
+|컨테이너 너비|1800px|1100px|550px
 
 
 ## 스크린샷
-(./img/capture/main.png)
-
-
-
+ <p align="center">
+  <img src="https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/068392f0-d555-4c26-81b3-4a6e771c09c2" width="600px">
+</p>
 
 
 ## Contact
-- 이름 : 이재호
-- 연락처 : 010-5351-5294
-- 이메일 : ljh2735294@naver.com
+- 이름 : **이재호**
+- 나이 : **26세**
+- 연락처 : **010-5351-5294**
+- 이메일 : **ljh2735294@naver.com**

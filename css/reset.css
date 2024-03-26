@@ -61,7 +61,7 @@ html{
     /* font alias: 폰트 계단현상 완화 */
 }
 :root{
-    --primary1: rgb(0, 84, 166);
+    --primary1: #0054a6;
     --primary2: #001325;
     --primary3: #003478;
     --accent1: #a3192d;
