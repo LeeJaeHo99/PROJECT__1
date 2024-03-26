@@ -161,7 +161,7 @@ body
 |컨테이너 너비|1800px|1100px|550px
 
 
-##스크린샷
+## 메인화면 스크린샷
 ![main](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/efca0bdc-bbaf-43d6-a757-ffc39a3bfaf3)
 
 ## Contact
