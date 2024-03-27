@@ -82,7 +82,8 @@ async function weather() {
 }
 weather();
 ```
-
+#### 실시간 날씨 표현
+![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/f6e6cf0e-2c62-4591-8169-4acf1ffc12b1)
 
 ```javascript
 2. 현재 시간 나타내기
@@ -98,6 +99,8 @@ function time(){
 
 setInterval(time, 1000);
 ```
+#### 현재 시간 표현
+![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/bc0b57f3-df45-4b7c-8d7f-07f3d11e5a0a)
 
 ## 폴더 구조
 
@@ -107,14 +110,12 @@ root
 └── index.html
 └── css
 │    ├── style.css
-│    ├── login.css
 │    ├── reset.css
 │    ├── media.css
 │    └── fonts.css
 │
 └── js
-│    ├── script.js
-│    └── login.js
+│    └── script.js
 │
 └── img
     ├── banner
