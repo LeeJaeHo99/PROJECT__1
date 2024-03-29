@@ -82,7 +82,8 @@ async function weather() {
 }
 weather();
 ```
-
+#### 실시간 날씨 표현 (구현 화면)
+![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/f6e6cf0e-2c62-4591-8169-4acf1ffc12b1)
 
 ```javascript
 2. 현재 시간 나타내기
@@ -98,6 +99,8 @@ function time(){
 
 setInterval(time, 1000);
 ```
+#### 현재 시간 표현 (구현 화면)
+![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/bc0b57f3-df45-4b7c-8d7f-07f3d11e5a0a)
 
 ```javascript
 3. 슬라이드 배너
@@ -172,14 +175,12 @@ root
 └── index.html
 └── css
 │    ├── style.css
-│    ├── login.css
 │    ├── reset.css
 │    ├── media.css
 │    └── fonts.css
 │
 └── js
-│    ├── script.js
-│    └── login.js
+│    └── script.js
 │
 └── img
     ├── banner
@@ -225,6 +226,9 @@ body
 |---|---|---|---
 |컨테이너 너비|1800px|1100px|550px
 
+
+## 메인화면 스크린샷
+![main](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/efca0bdc-bbaf-43d6-a757-ffc39a3bfaf3)
 
 ## Contact
 - 이름 : 이재호
