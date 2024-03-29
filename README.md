@@ -99,6 +99,71 @@ function time(){
 setInterval(time, 1000);
 ```
 
+```javascript
+3. 슬라이드 배너
+- timer 함수를 통해 일정 시간마다 slideFn 함수를 호출하여 배너가 자동으로 넘어가도록 설정하고, 
+  배너 위에 마우스를 올리면 clearInterval 함수를 이용해 중지되도록 합니다.
+- 사용자가 'next' 버튼을 클릭하면 배너가 left를 기준으로 0%에서 -100%로 이동하고, 
+  'prev' 버튼을 클릭하면 배너의 left를 기준으로 0%에서 100%로 이동하여 새로운 배너가 나타나는 애니메이션 효과가 실행됩니다.
+- 페이저 버튼을 클릭하면 해당 배너로 직접 이동할 수 있습니다.  모든 애니메이션은 move 함수를 통해 구현되며, 
+  이 함수는 시작 위치와 끝 위치를 매개변수로 받아 CSS 속성을 변경하고 애니메이션을 적용합니다.
+
+//프로젝트 내 구현한 코드입니다.
+const prev = $('.btnImg > img[alt = left');
+    const next = $('.btnImg > img[alt = right');
+
+    //next
+    next.on('click', function(){
+      let prev = banner.eq(current);
+      let prevPage = pager.eq(current);
+      move(prev, '0%', '-100%');
+      prevPage.removeClass('on');
+      current++;
+      if(current >= banner.length){
+          current = 0;
+      }
+      let next = banner.eq(current);
+      let nextPage = pager.eq(current);
+      move(next, '100%', '0%');
+      nextPage.addClass('on');
+  });
+
+  //prev
+      prev.on('click', function(){
+      let prev = banner.eq(current);
+      let prevPage = pager.eq(current);
+      move(prev, '0%', '100%');
+      prevPage.removeClass('on');
+      current--;
+      if(current < 0){
+          current = 2;
+      }
+      let next = banner.eq(current);
+      let nextPage = pager.eq(current);
+      move(next, '-100%', '0%');
+      nextPage.addClass('on');
+  });
+
+   const pager = $('.pager li');
+      pager.on('click', function(){
+        const i = $(this).index();
+        pager.removeClass('on');
+        $(this).addClass('on');
+        pagerMove(i);
+    });
+    function pagerMove(i){
+        let currentEl = banner.eq(current);
+        let nextEl = banner.eq(i);
+        currentEl.css('left', 0).stop().animate({
+            'left' : '-100%',
+        }, 500);
+        nextEl.css('left', '100%').stop().animate({
+            'left' : 0,
+        }, 500);
+        current = i;
+    }
+```
+
 ## 폴더 구조
 
 폴더는 아래와 같은 구조로 제작되었습니다.

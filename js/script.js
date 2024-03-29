@@ -90,7 +90,7 @@ $('.banner_wrap').on({
   'mouseleave' : function(){
       timer()
   },
-})
+});
 
 //컨트롤 버튼 클릭
     const prev = $('.btnImg > img[alt = left');
@@ -109,7 +109,7 @@ $('.banner_wrap').on({
       let nextPage = pager.eq(current);
       move(next, '100%', '0%');
       nextPage.addClass('on');
-  })
+  });
 
   //prev
       prev.on('click', function(){
@@ -125,7 +125,7 @@ $('.banner_wrap').on({
       let nextPage = pager.eq(current);
       move(next, '-100%', '0%');
       nextPage.addClass('on');
-  })
+  });
 
       //페이저 버튼
       const pager = $('.pager li');
@@ -149,7 +149,6 @@ $('.banner_wrap').on({
 
     $(window).scroll(function(){
       let height = $(window).scrollTop();
-      console.log(`스크롤 높이 확인 : ` + height);
       //fixed_button
       if(height >= 500){
           $('.fixed_button').css({
